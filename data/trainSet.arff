@@ -1,0 +1,1796 @@
+@relation refinedData-weka.filters.unsupervised.instance.RemovePercentage-P50.0-V
+
+@attribute ageDifference numeric
+@attribute weightDifference numeric
+@attribute heightDifference numeric
+@attribute ref {'Helio Vigio','Joao Alberto Barreto','John McCarthy',N/A,'Joe Hamilton','Mason White','Larry Landless','Herb Dean','Cecil Peoples','Steve Mazzagatti','Jon Schorle','Mario Yamasaki','Yves Lavigne','Troy Waugh','Jorge Alonso','Marco Lopez','Mark Matheny','Kerry Hatley','Dan Miragliotta','Kevin Mulhall','Josh Rosenthal','Jerry Krzys','Adam Martinez','Tim Mills','Philippe Chartier','Daryl Guthmiller','Nick Gamst','Josh Arney','Mark Powell','Jim Axtel','Marc Goddard','Leon Roberts','David Smith','Todd Frederickson','Marc Fennell','Mike Reid','Al Coley','Donnie Jessup','Jorge Ortiz','Rick Fike','Kim Winslow','Keith Peterson','Dave Hagen','Dave Hagan','Shawn Gregory','Kevin Nix','Tom Jones','Gary Ritter','Don Turnage','Jason Herzog','Greg Franklin','John Sharp','Steve Perceval','Tom Johnson','Dale Frye','Bill Clancy','Phillipe Chatrier','Marc-Andre Cote','Kevin Dornan','Tony Williamson','Marcos Rosales','Rob Hinds','Jeff Malott','Marc Fennel','Chris Tognoni','Gary Copeland','Chris Kinman','Kevin MacDonald','Anthony Hamlett','Jerin Valel','Chip Snider','Myron Gaudet','Fernando Yamasaki','Jacob Montalvo','Dan Stell','Jason McCoy','Robert Madrigal','Jim Axtell','Bo Nesslein','Kristian Hacklou','Marko Gyllenland','Robert Sundel','Blake Grice','Will Fisher','Todd McGovern','Rick McCoy','Chris Adams','Frank Gentile','Gasper Oliver','Luis Cobian','Steve Newport','Neil Hall','Thomas Fan','Mike Beltran','Adam Cheadle','Randy Corley','Al Wichgers','Todd Anderson','Jay Stafin','Cameron Quinn','George Allen','Rob Madrigal','Otto Torriero','Osiris Maia','Grant Waterman','Wernei Cardoso','Jorge Alsonso','Mark Smith','Wolf Menninger','Raul Porrata','Frank Collazo','Peter Hickmott','Vitor Ribeiro','Liam Kerrigan','Steven Davis','Cyril Desjardins','Brad Jardine','Bobby Rehman','Eduardo Herdy','Al Guinee','Gary Forman','Bryan Miner','Kevin Sataki','Don Thais','Camila Albuquerque','Mike King','Lukasz Bosacki','Marco Goddard','Greg Kleynjans','Terry Hill','Gabe Barahona','Jordan Bass','Robbie Scheuermann','James Warring','Josh Ward','David Ferguson','Neil Swailes','Joe Solis','Piotr Michalak','John Hosegood','Steve Rita','Bill Bookwalter','James Chappell'}
+@attribute round numeric
+@attribute weightClass {Middleweight,'Light Heavyweight',Heavyweight,Welterweight,'Super Heavyweight',N/A,Lightweight,Bantamweight,Featherweight,Flyweight,Strawweight,Atomweight}
+@attribute method {Submission,TKO,KO,Draw,Decision,DQ,NC,No}
+
+@data
+11,40,5,'Helio Vigio',1,Middleweight,Submission
+?,5,3,'Joao Alberto Barreto',1,'Light Heavyweight',Submission
+2,36,1,'Helio Vigio',1,Middleweight,Submission
+7,49,1,'Joao Alberto Barreto',1,Heavyweight,TKO
+1,13,1,'Helio Vigio',1,Heavyweight,Submission
+3,20,1,'Joao Alberto Barreto',1,Middleweight,Submission
+4,35,2,'Helio Vigio',1,Heavyweight,TKO
+14,199,3,'Joao Alberto Barreto',1,Heavyweight,TKO
+3,49,2,'John McCarthy',1,Middleweight,Submission
+?,74,2,'John McCarthy',1,Middleweight,Submission
+?,15,2,'John McCarthy',1,Heavyweight,Submission
+3,14,1,'John McCarthy',1,Middleweight,Submission
+?,80,4,'John McCarthy',1,Heavyweight,KO
+?,30,0,'John McCarthy',1,Heavyweight,Submission
+?,15,2,'John McCarthy',1,Heavyweight,KO
+?,2,5,'John McCarthy',1,Middleweight,Submission
+?,20,1,'John McCarthy',1,'Light Heavyweight',Submission
+?,19,6,'John McCarthy',1,Heavyweight,Submission
+?,75,4,'John McCarthy',1,Welterweight,TKO
+?,45,1,'John McCarthy',1,Heavyweight,TKO
+?,80,5,'John McCarthy',1,Heavyweight,Submission
+?,?,?,'John McCarthy',1,Heavyweight,Submission
+?,20,2,'John McCarthy',1,Heavyweight,Submission
+?,25,4,'John McCarthy',1,Heavyweight,Submission
+?,8,2,'John McCarthy',1,Heavyweight,Submission
+2,59,3,'John McCarthy',1,Middleweight,Submission
+?,35,5,'John McCarthy',1,Heavyweight,KO
+2,12,1,'John McCarthy',1,Heavyweight,Submission
+6,400,9,'John McCarthy',1,'Light Heavyweight',TKO
+8,77,2,'John McCarthy',1,Middleweight,Submission
+5,30,0,'John McCarthy',1,'Light Heavyweight',TKO
+?,33,1,'John McCarthy',1,Heavyweight,Submission
+8,24,1,'John McCarthy',1,Middleweight,Submission
+11,83,4,'John McCarthy',1,Heavyweight,Submission
+?,10,2,'John McCarthy',1,Heavyweight,Submission
+12,36,7,'John McCarthy',1,'Light Heavyweight',Submission
+?,14,2,'John McCarthy',1,Middleweight,Submission
+?,40,2,'John McCarthy',1,Heavyweight,KO
+4,5,3,'John McCarthy',1,Heavyweight,Submission
+10,3,0,'John McCarthy',1,Heavyweight,Submission
+2,36,1,'John McCarthy',1,Heavyweight,Draw
+9,43,2,'John McCarthy',1,Heavyweight,TKO
+2,45,4,'John McCarthy',1,Heavyweight,TKO
+0,7,1,'John McCarthy',1,Heavyweight,Submission
+?,9,2,'John McCarthy',1,Heavyweight,Submission
+?,43,4,'John McCarthy',1,'Light Heavyweight',TKO
+?,55,10,'John McCarthy',1,'Super Heavyweight',TKO
+?,?,?,'John McCarthy',1,'Light Heavyweight',TKO
+?,?,?,'John McCarthy',1,Heavyweight,TKO
+2,40,0,'John McCarthy',1,Heavyweight,Submission
+6,41,1,'John McCarthy',1,Heavyweight,Submission
+2,40,2,'John McCarthy',1,Heavyweight,Submission
+4,50,8,'John McCarthy',1,Heavyweight,TKO
+1,40,2,'John McCarthy',1,Heavyweight,Submission
+?,20,4,'John McCarthy',1,Heavyweight,Submission
+?,70,10,'John McCarthy',1,'Super Heavyweight',KO
+?,150,2,'John McCarthy',1,Heavyweight,KO
+4,46,?,N/A,1,Welterweight,Submission
+?,16,0,N/A,1,'Light Heavyweight',Submission
+8,90,7,'John McCarthy',1,Heavyweight,TKO
+3,2,1,'John McCarthy',1,Heavyweight,Draw
+?,40,1,'John McCarthy',1,Heavyweight,Submission
+?,110,8,N/A,1,'Super Heavyweight',Submission
+?,38,1,'John McCarthy',1,Heavyweight,Submission
+?,15,1,'John McCarthy',1,Heavyweight,Submission
+?,50,2,'John McCarthy',1,'Light Heavyweight',Submission
+?,13,0,'John McCarthy',1,'Super Heavyweight',Submission
+?,70,4,N/A,1,Heavyweight,Submission
+?,?,?,'John McCarthy',1,N/A,Submission
+?,?,?,'John McCarthy',1,'Light Heavyweight',TKO
+1,30,2,'John McCarthy',1,Heavyweight,Submission
+4,23,2,'John McCarthy',1,Heavyweight,Submission
+8,41,4,'John McCarthy',1,Heavyweight,TKO
+0,15,2,'John McCarthy',1,Heavyweight,TKO
+?,?,?,'John McCarthy',1,Heavyweight,KO
+9,124,0,'John McCarthy',1,'Light Heavyweight',Submission
+?,?,?,'John McCarthy',1,'Super Heavyweight',Decision
+?,200,0,'John McCarthy',1,Heavyweight,KO
+?,38,6,'John McCarthy',1,Heavyweight,Submission
+6,41,1,'John McCarthy',1,Heavyweight,Decision
+?,25,4,'John McCarthy',1,Heavyweight,TKO
+?,200,7,'John McCarthy',1,'Light Heavyweight',TKO
+6,37,5,'John McCarthy',1,'Light Heavyweight',TKO
+?,0,6,'John McCarthy',1,Heavyweight,TKO
+?,0,8,'John McCarthy',1,Heavyweight,TKO
+?,?,?,N/A,1,Heavyweight,TKO
+1,5,0,'John McCarthy',1,'Light Heavyweight',TKO
+2,35,2,'John McCarthy',1,'Light Heavyweight',Submission
+3,12,3,'John McCarthy',1,Heavyweight,Submission
+?,5,6,'John McCarthy',1,Heavyweight,KO
+0,0,0,'John McCarthy',1,'Light Heavyweight',Submission
+?,13,0,'John McCarthy',1,Heavyweight,Submission
+?,20,1,'John McCarthy',1,Heavyweight,TKO
+?,5,4,N/A,1,Heavyweight,Decision
+?,?,?,N/A,1,N/A,TKO
+0,73,1,'John McCarthy',1,'Super Heavyweight',Decision
+4,17,3,'John McCarthy',1,'Light Heavyweight',Submission
+4,6,1,'John McCarthy',1,'Light Heavyweight',Decision
+0,25,3,'John McCarthy',1,Heavyweight,Submission
+?,17,5,'John McCarthy',1,Heavyweight,TKO
+?,95,2,'John McCarthy',1,'Light Heavyweight',Submission
+?,?,?,'John McCarthy',1,Heavyweight,Submission
+?,73,3,'John McCarthy',1,'Super Heavyweight',Submission
+4,10,3,'John McCarthy',1,Heavyweight,Submission
+1,65,5,'John McCarthy',1,Heavyweight,TKO
+?,20,2,'John McCarthy',1,Heavyweight,Submission
+1,30,2,'John McCarthy',1,Heavyweight,Submission
+?,?,?,N/A,1,N/A,Submission
+?,30,1,N/A,1,Heavyweight,Submission
+?,30,1,N/A,1,'Light Heavyweight',TKO
+0,40,1,'John McCarthy',1,Heavyweight,Submission
+?,0,0,'John McCarthy',1,Heavyweight,KO
+?,20,1,'John McCarthy',1,Heavyweight,Submission
+6,48,1,'John McCarthy',1,'Light Heavyweight',Submission
+12,138,1,'John McCarthy',1,Middleweight,TKO
+?,9,2,'John McCarthy',1,'Light Heavyweight',Submission
+12,48,2,'John McCarthy',1,Middleweight,TKO
+?,108,2,'John McCarthy',1,'Super Heavyweight',TKO
+1,21,3,'John McCarthy',1,'Light Heavyweight',Decision
+?,4,1,'John McCarthy',1,'Light Heavyweight',Submission
+?,?,?,'John McCarthy',1,'Light Heavyweight',Submission
+?,?,?,'John McCarthy',1,'Light Heavyweight',TKO
+12,65,0,'John McCarthy',1,Middleweight,TKO
+?,87,0,'John McCarthy',1,'Light Heavyweight',TKO
+7,5,1,'John McCarthy',1,'Light Heavyweight',Submission
+?,97,3,'John McCarthy',1,'Light Heavyweight',Submission
+?,?,?,'John McCarthy',1,'Super Heavyweight',Submission
+?,?,?,'John McCarthy',1,'Light Heavyweight',Submission
+6,0,1,'John McCarthy',1,'Light Heavyweight',Decision
+?,?,?,'Joe Hamilton',1,N/A,TKO
+?,?,?,'Joe Hamilton',1,'Light Heavyweight',TKO
+3,1,1,'John McCarthy',1,'Light Heavyweight',Decision
+2,77,2,'John McCarthy',1,Heavyweight,Submission
+?,44,2,'John McCarthy',1,'Light Heavyweight',Submission
+2,110,3,'John McCarthy',1,'Super Heavyweight',TKO
+4,50,2,'John McCarthy',1,Heavyweight,TKO
+?,1,3,'John McCarthy',1,'Light Heavyweight',Submission
+?,?,?,'John McCarthy',1,N/A,Decision
+?,24,5,'John McCarthy',1,Heavyweight,TKO
+?,?,?,'John McCarthy',1,Lightweight,Submission
+4,44,2,'John McCarthy',1,'Light Heavyweight',Submission
+?,43,5,'John McCarthy',1,Heavyweight,Submission
+14,18,1,'John McCarthy',1,'Light Heavyweight',TKO
+0,20,2,'John McCarthy',1,Heavyweight,Decision
+?,15,8,'John McCarthy',1,Heavyweight,KO
+?,7,2,'Joe Hamilton',1,Heavyweight,TKO
+?,49,8,'Joe Hamilton',1,Heavyweight,Decision
+?,10,3,'John McCarthy',1,Middleweight,KO
+2,10,4,'John McCarthy',1,Heavyweight,Decision
+3,14,2,'John McCarthy',1,Welterweight,Submission
+?,0,1,'John McCarthy',1,'Light Heavyweight',TKO
+0,1,5,'Joe Hamilton',1,Welterweight,Decision
+?,10,2,'Joe Hamilton',1,Welterweight,TKO
+?,20,6,'Joe Hamilton',1,Lightweight,Submission
+?,26,2,'Joe Hamilton',1,Middleweight,TKO
+3,1,3,'John McCarthy',1,Middleweight,Submission
+11,20,2,'John McCarthy',1,Heavyweight,KO
+6,11,4,'John McCarthy',1,Middleweight,Decision
+3,10,0,'John McCarthy',1,Heavyweight,TKO
+?,5,1,'John McCarthy',1,'Light Heavyweight',Submission
+2,36,6,'John McCarthy',1,Middleweight,Submission
+1,20,1,'John McCarthy',1,Middleweight,Decision
+3,70,3,'John McCarthy',1,'Super Heavyweight',KO
+?,?,?,'John McCarthy',1,'Light Heavyweight',Decision
+4,3,1,'John McCarthy',1,Middleweight,Submission
+1,0,2,'John McCarthy',1,Middleweight,TKO
+9,6,1,'John McCarthy',1,Heavyweight,KO
+6,1,4,'John McCarthy',1,Welterweight,Decision
+5,0,4,'John McCarthy',1,Heavyweight,Decision
+6,13,1,'John McCarthy',1,'Light Heavyweight',Submission
+?,?,?,'John McCarthy',1,Middleweight,TKO
+?,?,?,'John McCarthy',1,Lightweight,TKO
+5,20,2,'John McCarthy',1,'Light Heavyweight',TKO
+5,14,2,'John McCarthy',1,Welterweight,Decision
+10,39,0,'John McCarthy',1,Heavyweight,Decision
+1,6,3,'John McCarthy',1,'Light Heavyweight',TKO
+6,0,1,'John McCarthy',1,Welterweight,Decision
+9,13,4,'John McCarthy',1,Middleweight,Submission
+3,20,4,'John McCarthy',1,Middleweight,Submission
+7,5,1,'John McCarthy',1,'Light Heavyweight',TKO
+1,105,1,'John McCarthy',1,Heavyweight,Submission
+6,19,1,'John McCarthy',1,Middleweight,TKO
+10,1,4,'John McCarthy',1,'Light Heavyweight',Decision
+?,6,3,'John McCarthy',1,Middleweight,TKO
+11,20,1,'John McCarthy',1,Heavyweight,Submission
+?,?,?,N/A,1,N/A,TKO
+6,0,3,'John McCarthy',1,'Light Heavyweight',Decision
+9,11,1,'John McCarthy',1,Heavyweight,KO
+2,5,3,'John McCarthy',1,Heavyweight,Submission
+10,11,1,'John McCarthy',1,Middleweight,KO
+?,?,?,'John McCarthy',1,N/A,TKO
+3,30,3,'John McCarthy',1,Middleweight,TKO
+?,?,?,'John McCarthy',1,Heavyweight,TKO
+0,4,1,'John McCarthy',1,'Light Heavyweight',TKO
+1,9,2,'John McCarthy',2,Welterweight,TKO
+3,3,1,'John McCarthy',1,Middleweight,TKO
+?,11,2,'John McCarthy',1,'Light Heavyweight',Submission
+5,0,2,'John McCarthy',2,Heavyweight,TKO
+?,?,?,'John McCarthy',2,Middleweight,KO
+0,85,0,'John McCarthy',1,'Super Heavyweight',KO
+?,25,2,'John McCarthy',2,Heavyweight,Decision
+3,20,4,'John McCarthy',4,Middleweight,Submission
+0,35,1,'John McCarthy',3,Heavyweight,Draw
+11,59,1,'John McCarthy',1,Middleweight,Submission
+?,0,4,'John McCarthy',1,Heavyweight,KO
+?,7,5,'John McCarthy',1,'Light Heavyweight',TKO
+?,21,0,'John McCarthy',3,Welterweight,Decision
+?,2,6,'John McCarthy',3,Welterweight,TKO
+4,0,4,'John McCarthy',2,Bantamweight,Draw
+?,30,1,'John McCarthy',1,Heavyweight,TKO
+3,0,2,'John McCarthy',3,Middleweight,KO
+4,30,2,'John McCarthy',3,Middleweight,Decision
+?,1,1,'John McCarthy',2,Welterweight,Submission
+?,10,2,'John McCarthy',2,Bantamweight,TKO
+4,20,1,'John McCarthy',1,Heavyweight,Submission
+?,6,2,'John McCarthy',2,Middleweight,Decision
+1,20,4,'John McCarthy',5,'Light Heavyweight',Decision
+4,13,2,'John McCarthy',2,Middleweight,Submission
+1,15,1,'John McCarthy',1,'Light Heavyweight',Submission
+3,56,2,'John McCarthy',3,Heavyweight,Decision
+1,14,3,'John McCarthy',3,Middleweight,TKO
+4,40,3,'John McCarthy',3,Middleweight,Decision
+3,39,3,'John McCarthy',5,'Light Heavyweight',Decision
+?,8,5,'John McCarthy',3,Heavyweight,Decision
+11,14,0,'John McCarthy',2,Welterweight,Submission
+?,15,2,'John McCarthy',2,Middleweight,DQ
+?,2,1,'John McCarthy',1,Welterweight,TKO
+3,10,1,'John McCarthy',3,Bantamweight,Decision
+?,25,2,'John McCarthy',2,'Light Heavyweight',Submission
+9,1,1,'John McCarthy',2,Middleweight,Decision
+16,9,1,'John McCarthy',1,Heavyweight,Submission
+5,39,0,'John McCarthy',3,'Light Heavyweight',Decision
+5,1,5,'John McCarthy',1,Middleweight,Submission
+3,30,3,'John McCarthy',1,Lightweight,Submission
+4,68,3,'John McCarthy',3,Welterweight,TKO
+1,45,1,'John McCarthy',3,'Light Heavyweight',Decision
+6,13,4,'John McCarthy',2,Heavyweight,Decision
+?,0,1,N/A,2,Welterweight,Draw
+8,2,3,'John McCarthy',3,'Light Heavyweight',TKO
+14,1,2,'John McCarthy',3,'Light Heavyweight',Decision
+1,12,7,'John McCarthy',2,Heavyweight,TKO
+5,38,1,'John McCarthy',1,Heavyweight,Submission
+5,25,5,'John McCarthy',1,Bantamweight,KO
+3,10,6,'John McCarthy',2,Middleweight,Decision
+?,1,?,'John McCarthy',2,Welterweight,Decision
+0,35,3,'John McCarthy',1,'Light Heavyweight',Submission
+8,16,1,'John McCarthy',2,Welterweight,Submission
+0,13,1,'John McCarthy',1,Middleweight,TKO
+8,28,4,'John McCarthy',1,Lightweight,TKO
+1,0,3,'John McCarthy',1,Middleweight,TKO
+2,11,0,'John McCarthy',1,Middleweight,Submission
+2,33,5,'John McCarthy',3,'Light Heavyweight',Decision
+4,20,2,'John McCarthy',1,'Light Heavyweight',KO
+1,10,0,'John McCarthy',5,Bantamweight,Decision
+0,5,6,'John McCarthy',1,Lightweight,Submission
+4,13,2,'John McCarthy',1,'Light Heavyweight',Submission
+3,4,2,'John McCarthy',2,Heavyweight,KO
+4,55,2,'John McCarthy',1,Heavyweight,NC
+3,15,4,'John McCarthy',2,Welterweight,Decision
+4,14,4,'Mason White',2,Lightweight,Submission
+11,41,0,N/A,5,'Light Heavyweight',Decision
+8,5,1,N/A,3,Middleweight,Submission
+2,0,4,N/A,1,'Light Heavyweight',KO
+2,6,3,N/A,3,Middleweight,KO
+2,31,8,N/A,2,Heavyweight,TKO
+6,15,1,N/A,3,Middleweight,DQ
+8,9,4,N/A,1,Featherweight,TKO
+1,1,2,N/A,3,Welterweight,Decision
+4,6,1,N/A,1,'Light Heavyweight',TKO
+2,2,0,N/A,1,Featherweight,TKO
+4,8,8,N/A,1,Heavyweight,Submission
+4,7,1,N/A,2,Welterweight,KO
+5,10,1,N/A,1,Featherweight,TKO
+4,35,2,N/A,3,'Light Heavyweight',Decision
+2,27,0,N/A,3,Heavyweight,TKO
+1,14,4,N/A,1,Welterweight,Submission
+4,0,1,N/A,5,'Light Heavyweight',Decision
+1,46,2,N/A,5,Bantamweight,Decision
+3,20,1,N/A,3,'Light Heavyweight',Decision
+2,15,4,N/A,3,Welterweight,Decision
+9,15,1,N/A,5,Middleweight,Decision
+4,1,3,N/A,2,Welterweight,KO
+6,15,3,N/A,1,Welterweight,Submission
+6,12,1,N/A,3,Featherweight,Decision
+11,41,0,N/A,3,'Light Heavyweight',TKO
+2,11,1,N/A,2,Heavyweight,TKO
+3,4,0,N/A,2,Welterweight,KO
+3,0,2,N/A,1,Featherweight,KO
+11,3,1,N/A,2,Heavyweight,Submission
+0,20,2,N/A,2,Middleweight,Submission
+6,15,3,N/A,3,Middleweight,Decision
+11,35,0,N/A,1,Heavyweight,Submission
+4,10,2,N/A,5,Bantamweight,Decision
+6,24,7,N/A,3,Heavyweight,TKO
+8,0,3,N/A,2,Middleweight,TKO
+7,20,5,N/A,3,'Light Heavyweight',Decision
+1,15,1,N/A,2,Middleweight,TKO
+4,0,2,N/A,3,'Light Heavyweight',Decision
+6,15,1,N/A,3,Welterweight,Decision
+5,0,4,N/A,2,Middleweight,Submission
+14,45,2,N/A,2,Heavyweight,TKO
+5,3,3,N/A,3,Heavyweight,KO
+2,2,2,N/A,4,Welterweight,TKO
+2,16,2,N/A,1,Middleweight,TKO
+0,14,3,N/A,1,Middleweight,TKO
+4,37,0,N/A,1,Heavyweight,Submission
+3,15,2,N/A,1,Welterweight,Submission
+3,15,3,N/A,3,Lightweight,Decision
+4,0,1,N/A,3,Middleweight,Submission
+7,11,5,N/A,2,Heavyweight,TKO
+8,10,3,N/A,2,Featherweight,TKO
+0,15,0,N/A,1,Welterweight,TKO
+1,10,3,N/A,3,Featherweight,Decision
+6,0,0,N/A,3,Middleweight,TKO
+6,15,0,N/A,1,Middleweight,NC
+2,15,2,N/A,3,Welterweight,Decision
+8,20,2,N/A,3,'Light Heavyweight',Decision
+?,?,?,N/A,3,Middleweight,Decision
+3,0,1,N/A,1,Welterweight,Submission
+9,0,1,N/A,2,Welterweight,TKO
+?,30,?,N/A,2,Lightweight,TKO
+5,15,3,N/A,1,Lightweight,TKO
+3,4,0,N/A,4,Welterweight,TKO
+9,57,4,N/A,1,'Light Heavyweight',TKO
+3,0,6,N/A,1,Middleweight,KO
+2,10,2,N/A,2,Lightweight,Submission
+?,3,3,N/A,3,Middleweight,Decision
+4,6,3,N/A,3,'Light Heavyweight',Decision
+2,13,1,N/A,3,Middleweight,Decision
+14,11,3,N/A,5,Heavyweight,Submission
+?,5,5,N/A,2,Heavyweight,TKO
+4,25,3,N/A,3,Featherweight,Decision
+1,2,2,N/A,3,Featherweight,Decision
+2,16,9,N/A,1,Heavyweight,TKO
+2,15,1,N/A,1,Welterweight,KO
+1,0,0,N/A,3,Middleweight,Decision
+6,30,4,N/A,1,Lightweight,TKO
+11,7,1,N/A,3,'Light Heavyweight',TKO
+6,0,2,N/A,1,'Light Heavyweight',KO
+8,0,0,N/A,1,Welterweight,TKO
+5,4,0,N/A,1,Middleweight,Submission
+5,1,1,N/A,1,Welterweight,TKO
+9,36,5,N/A,1,Heavyweight,TKO
+7,54,2,N/A,1,'Light Heavyweight',Submission
+?,3,3,N/A,2,Middleweight,Submission
+3,51,4,N/A,1,Heavyweight,TKO
+14,12,3,'Larry Landless',1,Heavyweight,Submission
+3,0,2,N/A,5,Featherweight,Draw
+6,15,3,N/A,3,Middleweight,Decision
+3,39,0,N/A,3,'Light Heavyweight',Decision
+2,27,3,N/A,3,Featherweight,Decision
+3,22,8,N/A,1,Heavyweight,TKO
+0,0,1,N/A,3,Lightweight,Submission
+0,15,3,N/A,5,Welterweight,Decision
+11,0,2,N/A,2,Welterweight,Submission
+?,3,0,N/A,3,Welterweight,Decision
+?,25,3,N/A,2,Heavyweight,TKO
+3,0,1,N/A,1,Middleweight,TKO
+0,15,1,N/A,3,Welterweight,Decision
+5,0,1,N/A,3,Lightweight,Decision
+12,7,2,N/A,1,'Light Heavyweight',KO
+6,2,1,N/A,3,'Light Heavyweight',TKO
+3,15,3,N/A,1,Heavyweight,Submission
+?,0,3,N/A,3,Lightweight,Decision
+6,22,3,N/A,1,Middleweight,TKO
+1,0,1,N/A,3,'Light Heavyweight',Draw
+0,4,6,N/A,1,Heavyweight,DQ
+4,0,2,N/A,1,Middleweight,TKO
+9,11,1,N/A,2,Heavyweight,TKO
+12,2,1,N/A,5,'Light Heavyweight',Decision
+8,36,3,N/A,1,Heavyweight,KO
+2,5,2,N/A,1,Heavyweight,TKO
+7,7,1,N/A,3,Middleweight,Decision
+8,20,0,N/A,1,Middleweight,TKO
+13,2,0,N/A,1,Welterweight,Submission
+1,2,1,N/A,1,Lightweight,KO
+1,0,3,N/A,3,Welterweight,Submission
+1,10,1,N/A,2,Lightweight,KO
+1,11,1,N/A,1,Welterweight,Submission
+4,0,2,N/A,3,Middleweight,TKO
+?,10,3,N/A,1,Heavyweight,TKO
+5,15,3,N/A,1,Middleweight,TKO
+8,0,0,N/A,3,Welterweight,Decision
+3,30,3,N/A,3,Heavyweight,Decision
+?,30,2,N/A,1,Middleweight,Submission
+3,0,?,N/A,2,Lightweight,TKO
+14,18,1,N/A,1,Middleweight,TKO
+5,25,0,N/A,1,Featherweight,Submission
+?,4,4,N/A,3,Welterweight,Decision
+0,4,6,N/A,2,Heavyweight,KO
+5,0,1,N/A,1,Middleweight,Submission
+1,1,0,N/A,3,Welterweight,Decision
+4,2,4,N/A,3,Lightweight,Decision
+3,35,0,N/A,3,Welterweight,Decision
+6,0,0,N/A,2,'Light Heavyweight',KO
+3,1,1,N/A,2,Welterweight,Submission
+2,0,4,N/A,3,Lightweight,Decision
+?,19,1,N/A,2,Heavyweight,TKO
+1,0,2,N/A,2,Welterweight,KO
+1,53,6,N/A,1,'Light Heavyweight',KO
+?,10,0,N/A,1,Heavyweight,TKO
+3,10,3,N/A,1,Lightweight,Submission
+4,23,2,N/A,1,Heavyweight,KO
+3,0,1,N/A,1,Middleweight,TKO
+5,3,5,N/A,1,Heavyweight,TKO
+?,0,4,N/A,3,Welterweight,Decision
+5,15,3,N/A,3,Middleweight,Decision
+8,35,0,N/A,3,Welterweight,Decision
+1,20,1,N/A,2,'Light Heavyweight',Submission
+5,0,1,N/A,1,Welterweight,TKO
+14,18,1,N/A,3,'Light Heavyweight',TKO
+5,16,0,N/A,2,Welterweight,Submission
+2,0,2,N/A,1,'Light Heavyweight',KO
+8,0,0,N/A,1,Middleweight,KO
+2,30,2,N/A,1,Heavyweight,KO
+?,0,0,N/A,2,Welterweight,Submission
+1,1,3,N/A,3,Welterweight,Decision
+2,2,0,N/A,1,Lightweight,KO
+5,35,3,N/A,3,'Light Heavyweight',Decision
+2,0,0,N/A,3,Middleweight,Submission
+8,0,1,N/A,1,Welterweight,Submission
+?,11,5,N/A,2,Middleweight,TKO
+11,15,1,N/A,1,Middleweight,Submission
+0,30,0,N/A,1,Middleweight,Submission
+2,22,5,N/A,2,Middleweight,KO
+5,24,4,N/A,1,Heavyweight,Submission
+7,0,0,N/A,1,Middleweight,TKO
+4,30,2,N/A,1,'Light Heavyweight',KO
+2,0,?,N/A,1,'Light Heavyweight',KO
+6,22,2,N/A,1,'Light Heavyweight',TKO
+8,1,1,N/A,3,Welterweight,Decision
+4,19,3,N/A,1,Welterweight,TKO
+2,20,2,N/A,3,'Light Heavyweight',Decision
+6,9,2,N/A,3,Middleweight,Submission
+10,27,0,N/A,1,Middleweight,TKO
+2,0,0,N/A,3,'Light Heavyweight',Decision
+5,10,0,N/A,1,Lightweight,TKO
+11,23,1,N/A,3,'Light Heavyweight',Decision
+5,0,1,N/A,1,Middleweight,TKO
+?,15,1,N/A,1,Welterweight,KO
+1,0,3,N/A,1,Middleweight,TKO
+3,15,2,N/A,1,Welterweight,KO
+?,1,4,N/A,1,Welterweight,TKO
+6,2,1,N/A,1,'Light Heavyweight',KO
+3,54,3,N/A,2,'Light Heavyweight',Submission
+1,11,1,N/A,1,Welterweight,Submission
+3,0,2,N/A,2,Middleweight,Submission
+1,15,2,N/A,3,Welterweight,Decision
+11,15,0,N/A,1,Middleweight,Submission
+3,16,1,N/A,3,Middleweight,Submission
+5,17,2,N/A,3,'Light Heavyweight',Decision
+1,6,3,N/A,1,Heavyweight,TKO
+8,1,4,N/A,3,Welterweight,Decision
+3,0,1,N/A,4,Middleweight,TKO
+12,0,0,N/A,1,'Light Heavyweight',Submission
+4,40,0,N/A,1,'Light Heavyweight',Submission
+0,9,3,N/A,1,Middleweight,TKO
+1,7,2,N/A,2,'Light Heavyweight',TKO
+6,25,5,N/A,1,Welterweight,KO
+8,0,0,'John McCarthy',3,Middleweight,Decision
+0,15,0,'Herb Dean',3,Middleweight,Decision
+3,0,1,'John McCarthy',3,'Light Heavyweight',Decision
+10,6,1,'Cecil Peoples',1,Middleweight,TKO
+6,0,1,'Steve Mazzagatti',1,Welterweight,Submission
+6,0,3,'Herb Dean',1,Welterweight,TKO
+1,25,2,'Cecil Peoples',2,Featherweight,TKO
+4,19,1,'Steve Mazzagatti',1,Lightweight,TKO
+6,19,1,N/A,4,'Light Heavyweight',TKO
+9,32,6,N/A,1,Heavyweight,KO
+2,2,1,N/A,3,'Light Heavyweight',Submission
+9,16,2,N/A,2,Lightweight,Submission
+9,11,2,N/A,1,Welterweight,Submission
+7,1,0,N/A,3,Middleweight,Decision
+1,20,2,N/A,3,'Light Heavyweight',Decision
+2,20,?,N/A,2,'Light Heavyweight',KO
+8,7,0,N/A,2,'Light Heavyweight',TKO
+2,20,2,N/A,1,Middleweight,Submission
+5,52,2,N/A,2,'Light Heavyweight',TKO
+2,19,0,N/A,3,Lightweight,TKO
+7,15,3,N/A,2,Lightweight,Submission
+1,13,1,N/A,3,Middleweight,Decision
+3,1,1,'Jon Schorle',3,Welterweight,TKO
+5,36,1,'John McCarthy',1,Heavyweight,KO
+?,35,1,'Herb Dean',1,Heavyweight,TKO
+8,6,0,'Mario Yamasaki',1,'Light Heavyweight',TKO
+2,0,1,'Herb Dean',2,'Light Heavyweight',Submission
+8,0,1,'John McCarthy',2,Welterweight,TKO
+3,4,4,'Mario Yamasaki',3,Middleweight,Decision
+?,23,4,'John McCarthy',2,'Light Heavyweight',Submission
+?,20,4,'Herb Dean',2,Middleweight,No
+2,15,3,N/A,3,Lightweight,Decision
+2,55,8,N/A,3,'Light Heavyweight',Decision
+2,15,5,N/A,3,Lightweight,Decision
+1,22,2,N/A,2,Featherweight,Submission
+1,10,0,N/A,1,Lightweight,KO
+10,15,1,N/A,2,Lightweight,TKO
+4,80,0,N/A,2,Middleweight,TKO
+2,0,1,'John McCarthy',1,Middleweight,KO
+9,13,1,'Herb Dean',3,Heavyweight,KO
+9,0,3,'John McCarthy',1,Welterweight,Submission
+8,15,4,'Herb Dean',2,Welterweight,TKO
+3,19,1,'Mario Yamasaki',3,Middleweight,Decision
+?,1,0,'Herb Dean',2,'Light Heavyweight',Submission
+?,15,1,'Mario Yamasaki',1,Welterweight,TKO
+0,0,2,'Steve Mazzagatti',3,Welterweight,Decision
+0,30,7,N/A,3,Heavyweight,Decision
+1,0,?,N/A,1,'Light Heavyweight',Submission
+1,4,0,N/A,1,Lightweight,Submission
+8,0,2,N/A,1,Middleweight,TKO
+0,15,2,N/A,1,Welterweight,Submission
+1,1,2,N/A,1,Welterweight,TKO
+4,0,2,N/A,1,Lightweight,TKO
+?,0,4,N/A,3,Welterweight,TKO
+6,2,1,N/A,2,'Light Heavyweight',KO
+1,30,1,N/A,1,'Light Heavyweight',KO
+1,57,1,N/A,1,'Light Heavyweight',TKO
+10,0,2,N/A,1,'Light Heavyweight',Submission
+1,0,1,N/A,3,Welterweight,Decision
+10,14,2,N/A,3,Middleweight,Decision
+?,45,2,N/A,2,'Light Heavyweight',TKO
+2,8,5,N/A,1,Heavyweight,TKO
+6,76,1,N/A,3,Middleweight,Decision
+5,7,1,N/A,5,Middleweight,Decision
+?,1,3,N/A,1,Welterweight,Submission
+3,25,1,N/A,3,Welterweight,Decision
+2,1,0,N/A,3,Middleweight,Decision
+6,10,2,N/A,2,Featherweight,Submission
+8,0,2,N/A,3,Lightweight,Decision
+?,25,5,N/A,1,'Light Heavyweight',Submission
+8,30,1,N/A,3,'Light Heavyweight',TKO
+2,20,1,N/A,3,'Light Heavyweight',Decision
+1,0,3,N/A,3,'Light Heavyweight',Decision
+1,15,4,N/A,3,Welterweight,Decision
+1,2,2,N/A,3,Middleweight,Decision
+?,0,0,N/A,3,Welterweight,Decision
+2,28,2,N/A,2,Middleweight,Submission
+5,10,1,N/A,3,'Super Heavyweight',Submission
+?,15,1,N/A,1,Welterweight,Submission
+5,0,1,N/A,3,'Light Heavyweight',Decision
+5,24,4,N/A,1,Heavyweight,TKO
+10,15,7,N/A,3,Lightweight,Decision
+4,0,1,N/A,3,'Light Heavyweight',Decision
+9,0,2,N/A,1,Middleweight,Submission
+7,33,7,N/A,3,Heavyweight,Decision
+1,1,3,N/A,1,Welterweight,Submission
+1,0,0,N/A,1,Middleweight,Submission
+3,20,3,N/A,2,'Light Heavyweight',TKO
+5,1,1,N/A,1,Welterweight,TKO
+7,6,3,N/A,1,Welterweight,TKO
+5,0,0,N/A,1,Middleweight,Submission
+2,0,0,N/A,3,Lightweight,Decision
+3,30,1,N/A,1,'Light Heavyweight',Submission
+3,0,1,N/A,1,Welterweight,Submission
+2,19,0,N/A,2,Middleweight,Submission
+7,0,3,N/A,2,Lightweight,KO
+7,1,2,N/A,2,Heavyweight,TKO
+?,0,?,N/A,1,Lightweight,KO
+8,10,1,N/A,1,Featherweight,Submission
+2,20,5,N/A,2,Middleweight,TKO
+2,20,4,N/A,3,Middleweight,Decision
+3,34,0,N/A,3,Middleweight,Decision
+?,20,6,N/A,1,Middleweight,Submission
+?,20,4,N/A,1,'Light Heavyweight',Submission
+9,2,2,N/A,1,Middleweight,KO
+8,21,0,N/A,1,'Light Heavyweight',TKO
+2,26,2,N/A,1,'Light Heavyweight',Submission
+1,1,0,N/A,3,Welterweight,Decision
+5,0,3,N/A,1,Middleweight,KO
+2,0,4,N/A,3,'Light Heavyweight',Decision
+5,9,1,N/A,3,Featherweight,Decision
+3,15,0,N/A,3,Welterweight,Decision
+4,25,4,N/A,1,'Light Heavyweight',TKO
+5,13,2,N/A,2,Middleweight,TKO
+?,25,3,N/A,1,Heavyweight,Submission
+0,15,3,N/A,1,Welterweight,KO
+5,24,4,'John McCarthy',5,Heavyweight,Decision
+3,15,1,'Steve Mazzagatti',3,Lightweight,Decision
+11,7,1,'Herb Dean',1,'Light Heavyweight',TKO
+7,8,5,'Yves Lavigne',3,Heavyweight,Decision
+6,0,3,'John McCarthy',2,Lightweight,TKO
+4,15,0,'Yves Lavigne',3,Lightweight,Submission
+1,33,6,'Herb Dean',1,Heavyweight,TKO
+?,16,3,'Yves Lavigne',1,Heavyweight,TKO
+0,4,2,'Steve Mazzagatti',3,Lightweight,Submission
+1,14,0,N/A,3,Lightweight,Decision
+0,15,2,N/A,2,Middleweight,KO
+0,5,1,N/A,3,Middleweight,Decision
+2,1,2,N/A,1,Welterweight,Submission
+10,14,0,N/A,1,Welterweight,Submission
+?,0,0,N/A,1,Welterweight,Submission
+?,15,2,N/A,2,'Light Heavyweight',TKO
+6,20,1,N/A,3,Middleweight,Decision
+?,16,1,N/A,1,Welterweight,Submission
+6,0,2,'John McCarthy',1,'Light Heavyweight',TKO
+2,0,0,'Steve Mazzagatti',3,'Light Heavyweight',Decision
+0,0,2,'Herb Dean',3,Welterweight,Submission
+?,0,2,'Mario Yamasaki',1,Heavyweight,KO
+10,0,2,'John McCarthy',3,Lightweight,Submission
+?,45,0,'Herb Dean',1,Middleweight,Submission
+5,11,0,'Steve Mazzagatti',1,Heavyweight,Submission
+?,2,1,'Mario Yamasaki',1,'Light Heavyweight',Submission
+3,0,0,'Herb Dean',3,Middleweight,Decision
+5,25,0,'John McCarthy',3,Welterweight,TKO
+0,22,1,'Steve Mazzagatti',3,Welterweight,Decision
+6,0,1,'Herb Dean',2,Lightweight,KO
+2,0,1,'John McCarthy',2,'Light Heavyweight',KO
+10,20,2,'Herb Dean',1,Lightweight,KO
+3,3,1,'Steve Mazzagatti',3,Lightweight,Decision
+?,15,3,'John McCarthy',2,Heavyweight,KO
+?,31,2,'Herb Dean',3,Lightweight,Decision
+?,10,5,'Steve Mazzagatti',1,Lightweight,Submission
+11,7,1,'John McCarthy',1,'Light Heavyweight',TKO
+?,18,4,'Troy Waugh',1,Middleweight,Submission
+5,20,0,'Jorge Alonso',1,Middleweight,Submission
+3,0,2,'John McCarthy',3,'Light Heavyweight',Decision
+7,1,0,'Troy Waugh',2,Middleweight,Submission
+12,14,1,'Marco Lopez',1,Welterweight,Submission
+1,20,5,'John McCarthy',3,Middleweight,Decision
+4,15,0,'Troy Waugh',3,Welterweight,Decision
+2,15,1,'Jorge Alonso',1,Welterweight,Submission
+1,0,1,'John McCarthy',1,Middleweight,KO
+3,10,4,'Steve Mazzagatti',5,Lightweight,Decision
+2,30,2,'Mario Yamasaki',3,Middleweight,Decision
+6,21,2,'Yves Lavigne',3,Heavyweight,Decision
+12,15,3,'Mario Yamasaki',1,Lightweight,TKO
+6,20,1,'Yves Lavigne',3,Middleweight,TKO
+?,10,3,'Steve Mazzagatti',2,Featherweight,Submission
+2,10,1,'John McCarthy',1,Lightweight,Submission
+0,0,5,'Herb Dean',3,Welterweight,Decision
+7,15,3,'John McCarthy',1,Middleweight,Submission
+0,12,0,'Steve Mazzagatti',2,Featherweight,Submission
+10,20,0,'Yves Lavigne',1,Middleweight,TKO
+11,0,1,'Herb Dean',2,Welterweight,Submission
+3,6,1,'John McCarthy',2,Middleweight,KO
+7,15,0,'Steve Mazzagatti',1,Middleweight,Submission
+1,15,1,'Yves Lavigne',3,Welterweight,Decision
+8,0,1,'John McCarthy',2,Welterweight,TKO
+3,27,11,'John McCarthy',5,Heavyweight,Decision
+3,0,1,'Mario Yamasaki',1,Middleweight,TKO
+2,57,1,'Steve Mazzagatti',1,'Light Heavyweight',TKO
+10,1,0,'Mario Yamasaki',1,Lightweight,Submission
+0,15,3,'Steve Mazzagatti',2,Welterweight,TKO
+?,35,3,'John McCarthy',1,Heavyweight,KO
+2,0,?,'Mario Yamasaki',2,'Light Heavyweight',TKO
+3,0,1,'Steve Mazzagatti',3,'Light Heavyweight',Decision
+1,15,2,'John McCarthy',1,Lightweight,KO
+2,0,2,'Herb Dean',3,Welterweight,Decision
+3,18,0,'Steve Mazzagatti',3,Welterweight,Decision
+1,6,1,'John McCarthy',3,Welterweight,Decision
+5,30,1,'Herb Dean',3,'Light Heavyweight',Decision
+4,15,1,'Steve Mazzagatti',3,Middleweight,KO
+7,2,1,'John McCarthy',1,Middleweight,TKO
+7,0,0,'Herb Dean',3,Welterweight,Decision
+?,0,?,'Steve Mazzagatti',3,Middleweight,Decision
+2,3,0,'Herb Dean',1,Heavyweight,Submission
+5,0,0,'Steve Mazzagatti',3,Middleweight,Submission
+?,29,1,'Herb Dean',3,Heavyweight,Decision
+6,0,0,'Mario Yamasaki',3,'Light Heavyweight',TKO
+4,20,1,'John McCarthy',1,Middleweight,TKO
+5,0,3,'Steve Mazzagatti',2,Middleweight,Submission
+1,36,0,'Herb Dean',1,Heavyweight,KO
+2,0,1,'Mario Yamasaki',1,Middleweight,TKO
+9,1,2,'John McCarthy',2,Welterweight,KO
+2,0,1,'Troy Waugh',2,'Light Heavyweight',KO
+6,45,1,'John McCarthy',3,'Light Heavyweight',Decision
+2,0,1,'Jorge Alonso',2,Lightweight,TKO
+3,0,1,'John McCarthy',3,Middleweight,Decision
+?,15,2,'Troy Waugh',3,Lightweight,Decision
+?,2,0,'Jorge Alonso',1,'Light Heavyweight',Submission
+5,2,2,'John McCarthy',3,Featherweight,Decision
+?,50,1,'Troy Waugh',2,Lightweight,Submission
+2,0,0,'Herb Dean',2,Middleweight,Submission
+8,13,1,'Steve Mazzagatti',1,Heavyweight,TKO
+11,0,0,'Yves Lavigne',1,Lightweight,TKO
+7,1,4,'John McCarthy',2,'Light Heavyweight',KO
+1,15,1,'Yves Lavigne',3,Welterweight,Decision
+8,0,6,'Herb Dean',1,Middleweight,KO
+3,10,0,'Steve Mazzagatti',3,Featherweight,Decision
+2,20,1,'John McCarthy',3,Middleweight,Decision
+4,6,7,'Yves Lavigne',3,Lightweight,Decision
+11,62,7,'John McCarthy',5,'Light Heavyweight',Decision
+4,15,0,'Herb Dean',1,Welterweight,Submission
+1,0,1,'Herb Dean',2,Middleweight,TKO
+1,0,2,'Mark Matheny',3,Welterweight,Decision
+2,0,2,'John McCarthy',2,'Light Heavyweight',KO
+?,0,1,'John McCarthy',1,'Light Heavyweight',TKO
+3,0,3,'Mark Matheny',2,Middleweight,Submission
+3,3,0,'Herb Dean',3,Lightweight,Decision
+12,14,4,'Mark Matheny',1,Lightweight,Submission
+1,0,2,'Steve Mazzagatti',1,Lightweight,Submission
+0,5,2,'Herb Dean',3,Heavyweight,Decision
+4,9,3,'John McCarthy',3,Featherweight,Submission
+1,14,2,'Yves Lavigne',2,Heavyweight,Submission
+5,19,1,'Steve Mazzagatti',3,Lightweight,Decision
+4,0,1,'Herb Dean',1,Lightweight,Submission
+1,32,1,'John McCarthy',3,Lightweight,Decision
+2,15,2,'Yves Lavigne',3,Welterweight,Decision
+3,9,1,'Herb Dean',3,Featherweight,Decision
+7,0,4,'John McCarthy',1,Welterweight,TKO
+4,15,0,'John McCarthy',3,Welterweight,Decision
+4,10,0,'Mario Yamasaki',3,Lightweight,Decision
+2,15,1,'Mario Yamasaki',3,Middleweight,Decision
+2,0,4,'John McCarthy',2,Middleweight,Submission
+1,10,3,'Kerry Hatley',3,Heavyweight,Decision
+1,6,2,'Mario Yamasaki',3,Middleweight,Decision
+2,0,1,'Kerry Hatley',2,Welterweight,Submission
+3,35,3,'Kerry Hatley',2,Welterweight,KO
+5,31,0,'Herb Dean',1,Heavyweight,KO
+2,1,0,'Herb Dean',3,Heavyweight,Decision
+8,14,1,'Steve Mazzagatti',2,Middleweight,TKO
+2,18,2,'Mario Yamasaki',3,Middleweight,Decision
+1,1,3,'Mario Yamasaki',3,Heavyweight,Decision
+5,10,5,'Steve Mazzagatti',1,Lightweight,Submission
+?,0,2,'Herb Dean',2,Featherweight,Submission
+0,48,1,'Mario Yamasaki',1,Middleweight,TKO
+?,25,2,'Steve Mazzagatti',1,Welterweight,Submission
+3,15,0,'Herb Dean',3,Lightweight,TKO
+9,1,1,'John McCarthy',1,'Light Heavyweight',TKO
+2,14,0,'Herb Dean',3,Welterweight,Decision
+9,0,5,'Mario Yamasaki',1,Middleweight,TKO
+3,18,2,'Steve Mazzagatti',1,'Light Heavyweight',TKO
+5,20,4,'Mario Yamasaki',3,'Light Heavyweight',Decision
+4,3,?,'Herb Dean',1,Heavyweight,TKO
+7,20,4,'Steve Mazzagatti',1,Middleweight,Submission
+10,2,0,'John McCarthy',2,Featherweight,Submission
+3,36,0,'Mario Yamasaki',1,Heavyweight,Submission
+8,0,2,'John McCarthy',3,Lightweight,Decision
+0,13,1,'Troy Waugh',2,Middleweight,Submission
+?,15,5,'Jorge Alonso',1,Middleweight,KO
+12,24,3,'John McCarthy',2,Featherweight,Submission
+6,2,0,'Troy Waugh',3,Middleweight,Decision
+15,0,7,'Jorge Alonso',2,Welterweight,Submission
+15,0,?,'John McCarthy',1,Lightweight,Submission
+?,35,2,'Troy Waugh',1,'Light Heavyweight',KO
+3,0,2,'Jorge Alonso',3,Lightweight,Decision
+7,0,1,'John McCarthy',3,Middleweight,Decision
+3,0,3,'Herb Dean',3,'Light Heavyweight',Decision
+1,0,0,'Yves Lavigne',2,Middleweight,TKO
+3,10,1,'John McCarthy',3,Lightweight,Decision
+1,20,2,'Herb Dean',2,'Light Heavyweight',Submission
+?,0,2,'Yves Lavigne',1,Welterweight,KO
+14,29,1,'Herb Dean',2,Heavyweight,TKO
+?,15,3,'Yves Lavigne',1,Lightweight,Submission
+4,10,2,'Steve Mazzagatti',2,Featherweight,Submission
+4,20,7,'Herb Dean',2,Lightweight,Submission
+?,0,2,'Yves Lavigne',1,Middleweight,Submission
+3,11,0,'Steve Mazzagatti',2,Lightweight,TKO
+1,15,1,'Herb Dean',2,Lightweight,Submission
+7,10,7,'Herb Dean',1,Featherweight,TKO
+2,20,2,'Steve Mazzagatti',2,Lightweight,No
+5,10,1,'Herb Dean',1,Featherweight,Submission
+3,0,3,'Yves Lavigne',1,Lightweight,TKO
+6,0,1,'Yves Lavigne',1,Featherweight,Submission
+4,0,2,'John McCarthy',1,Middleweight,TKO
+4,0,3,'John McCarthy',3,'Light Heavyweight',Draw
+1,0,0,'John McCarthy',5,Lightweight,Decision
+2,10,1,'Yves Lavigne',3,Heavyweight,Decision
+6,1,1,'Jon Schorle',1,'Light Heavyweight',Submission
+5,5,3,'Yves Lavigne',3,Lightweight,Decision
+2,1,1,'Jon Schorle',1,Welterweight,Submission
+0,10,3,'Jon Schorle',1,Featherweight,TKO
+16,55,1,'Herb Dean',3,'Light Heavyweight',TKO
+4,0,0,'John McCarthy',3,Welterweight,Decision
+7,0,0,'Steve Mazzagatti',3,Lightweight,TKO
+3,0,1,'John McCarthy',3,Lightweight,Decision
+2,15,7,'Herb Dean',1,Welterweight,TKO
+1,2,1,'Steve Mazzagatti',2,'Light Heavyweight',Submission
+3,22,1,'John McCarthy',1,Heavyweight,Submission
+4,10,3,'Herb Dean',1,Middleweight,Submission
+8,25,3,'Steve Mazzagatti',3,Featherweight,Decision
+8,21,0,'John McCarthy',5,'Light Heavyweight',Decision
+3,20,0,'Mario Yamasaki',3,Middleweight,Decision
+1,7,2,'John McCarthy',3,Heavyweight,Decision
+6,15,4,'Yves Lavigne',1,Welterweight,Submission
+9,18,1,'Yves Lavigne',1,'Light Heavyweight',TKO
+3,0,3,'Mario Yamasaki',3,Lightweight,Decision
+0,23,0,'John McCarthy',2,Heavyweight,TKO
+2,9,1,'Yves Lavigne',2,Featherweight,KO
+?,1,1,'Mario Yamasaki',1,Welterweight,TKO
+0,2,1,'Mario Yamasaki',1,Featherweight,Submission
+0,0,4,'Herb Dean',3,Middleweight,KO
+4,10,3,'Steve Mazzagatti',1,Lightweight,Submission
+10,6,1,'Mario Yamasaki',3,Middleweight,KO
+2,0,0,'Herb Dean',1,Welterweight,TKO
+5,0,4,'Steve Mazzagatti',3,Featherweight,Decision
+2,0,2,'Mario Yamasaki',1,Lightweight,KO
+7,17,0,'Herb Dean',2,Welterweight,TKO
+7,14,1,'Steve Mazzagatti',1,Lightweight,Submission
+6,20,0,'John McCarthy',3,Middleweight,Decision
+2,0,2,'Steve Mazzagatti',3,'Light Heavyweight',Submission
+3,28,2,'Herb Dean',3,Middleweight,Decision
+1,0,2,'John McCarthy',3,Middleweight,Decision
+0,10,1,'Steve Mazzagatti',3,Lightweight,Decision
+8,50,5,'Herb Dean',2,Lightweight,Submission
+4,4,3,'John McCarthy',3,Featherweight,Decision
+?,31,1,'Steve Mazzagatti',1,Heavyweight,Submission
+8,10,4,'Herb Dean',3,Lightweight,Decision
+1,0,1,'John McCarthy',2,Middleweight,TKO
+3,60,6,'Yves Lavigne',3,Heavyweight,Decision
+5,9,0,'Mark Matheny',3,Featherweight,Decision
+0,20,0,'John McCarthy',2,'Light Heavyweight',TKO
+9,20,1,'Yves Lavigne',2,Middleweight,TKO
+6,0,0,'Mark Matheny',3,Middleweight,Decision
+0,5,2,'John McCarthy',1,Welterweight,Submission
+5,30,1,'Yves Lavigne',3,Lightweight,Decision
+9,24,2,'Mark Matheny',3,Featherweight,Decision
+0,20,3,'Dan Miragliotta',3,'Light Heavyweight',Decision
+10,5,1,'Dan Miragliotta',1,Heavyweight,TKO
+6,0,1,'Kevin Mulhall',3,Welterweight,Decision
+3,19,2,'Kevin Mulhall',3,'Light Heavyweight',KO
+5,10,1,'Dan Miragliotta',3,Featherweight,Decision
+9,0,1,'Dan Miragliotta',2,Welterweight,TKO
+15,20,3,'Kevin Mulhall',1,Lightweight,Submission
+7,15,3,'Kevin Mulhall',1,Welterweight,TKO
+12,15,7,'Dan Miragliotta',2,Lightweight,Submission
+2,10,2,'John McCarthy',3,Lightweight,Submission
+4,15,3,'Yves Lavigne',1,Lightweight,Submission
+4,15,2,'Steve Mazzagatti',3,Welterweight,TKO
+?,30,0,'John McCarthy',1,Lightweight,Submission
+3,0,?,'Yves Lavigne',3,Welterweight,Decision
+1,15,?,'Steve Mazzagatti',1,Welterweight,TKO
+8,0,1,'John McCarthy',1,Lightweight,Submission
+1,0,5,'Yves Lavigne',1,Lightweight,Submission
+3,14,?,'Steve Mazzagatti',1,Welterweight,TKO
+8,0,1,'Steve Mazzagatti',2,Welterweight,Submission
+7,20,4,'Herb Dean',3,'Light Heavyweight',Decision
+5,51,1,'Mario Yamasaki',3,Heavyweight,TKO
+6,20,3,'Mario Yamasaki',2,Middleweight,Submission
+7,0,0,'Herb Dean',1,Lightweight,Submission
+3,0,?,'Steve Mazzagatti',1,'Light Heavyweight',DQ
+2,20,4,'Herb Dean',1,Bantamweight,Submission
+?,15,6,'Mario Yamasaki',3,Middleweight,Decision
+4,1,1,'Steve Mazzagatti',2,Welterweight,TKO
+1,11,0,'Herb Dean',3,Lightweight,Decision
+4,10,2,'Herb Dean',2,Featherweight,Submission
+2,16,2,'Dan Miragliotta',2,Heavyweight,TKO
+?,0,1,'Mario Yamasaki',1,Welterweight,KO
+1,14,4,'Herb Dean',2,Heavyweight,KO
+10,0,5,'Dan Miragliotta',1,Middleweight,KO
+8,3,0,'Mario Yamasaki',1,Heavyweight,TKO
+5,14,3,'Herb Dean',3,Welterweight,Decision
+8,20,2,'Dan Miragliotta',1,Middleweight,TKO
+4,10,1,'Mario Yamasaki',3,Lightweight,Decision
+1,15,3,'Steve Mazzagatti',3,Welterweight,Decision
+2,15,1,'Herb Dean',1,Welterweight,TKO
+9,0,1,'Josh Rosenthal',3,Featherweight,Decision
+3,10,3,'Steve Mazzagatti',1,Lightweight,Submission
+3,0,1,'Herb Dean',2,Lightweight,TKO
+0,10,1,'Josh Rosenthal',3,Lightweight,Decision
+2,0,4,'Steve Mazzagatti',2,Featherweight,TKO
+1,13,10,'Herb Dean',2,Welterweight,TKO
+0,0,1,'Josh Rosenthal',1,Lightweight,Submission
+2,25,5,'Herb Dean',3,Heavyweight,Submission
+2,2,0,'Steve Mazzagatti',1,Heavyweight,Submission
+4,1,1,'Yves Lavigne',2,Middleweight,Submission
+4,15,?,'Herb Dean',1,Welterweight,Submission
+1,0,4,'Steve Mazzagatti',3,Lightweight,Decision
+8,0,1,'Yves Lavigne',1,Welterweight,TKO
+5,2,0,'Herb Dean',1,'Light Heavyweight',TKO
+9,22,2,'Yves Lavigne',3,N/A,Decision
+3,35,1,'Steve Mazzagatti',3,Bantamweight,Decision
+5,0,1,'Herb Dean',2,Middleweight,Submission
+3,16,0,'Dan Miragliotta',3,Heavyweight,Decision
+1,0,2,'Herb Dean',1,Middleweight,TKO
+10,0,2,'Mark Matheny',2,Middleweight,KO
+1,28,1,'Jerry Krzys',3,Middleweight,Decision
+5,36,1,'Mark Matheny',2,Heavyweight,TKO
+1,13,3,'Dan Miragliotta',3,Middleweight,Decision
+9,15,3,'Herb Dean',2,Welterweight,TKO
+2,15,0,'Jerry Krzys',1,Lightweight,Submission
+5,1,0,'Dan Miragliotta',3,Lightweight,Decision
+8,10,1,'Herb Dean',2,Featherweight,TKO
+2,10,2,'Adam Martinez',3,Lightweight,Decision
+1,1,0,'Steve Mazzagatti',2,Welterweight,TKO
+5,0,3,'Adam Martinez',2,'Light Heavyweight',TKO
+6,0,4,'Herb Dean',2,Lightweight,Submission
+6,2,?,'Steve Mazzagatti',1,'Light Heavyweight',KO
+7,27,2,'Herb Dean',3,Welterweight,Decision
+5,31,4,'Tim Mills',1,Welterweight,Submission
+13,20,?,'Steve Mazzagatti',1,Bantamweight,Submission
+6,10,?,'Tim Mills',1,Featherweight,TKO
+1,0,0,'Adam Martinez',2,Lightweight,TKO
+0,35,3,'Tim Mills',1,'Light Heavyweight',KO
+7,0,4,'Yves Lavigne',2,Welterweight,TKO
+1,0,1,'Steve Mazzagatti',2,Middleweight,TKO
+3,20,3,'Dan Miragliotta',3,Middleweight,Decision
+1,0,4,'Philippe Chartier',1,Middleweight,TKO
+1,0,1,'Yves Lavigne',3,Lightweight,Submission
+2,1,2,'Steve Mazzagatti',2,Middleweight,TKO
+5,0,2,'Dan Miragliotta',1,Middleweight,TKO
+3,35,2,'Philippe Chartier',2,Welterweight,TKO
+8,0,0,'Yves Lavigne',3,Lightweight,Decision
+?,12,0,'Steve Mazzagatti',1,Heavyweight,TKO
+3,16,2,'Dan Miragliotta',2,Welterweight,TKO
+3,20,1,'Yves Lavigne',3,Middleweight,Decision
+1,3,2,'Herb Dean',1,Heavyweight,Submission
+9,15,4,'Mario Yamasaki',1,Welterweight,Submission
+5,20,1,'Steve Mazzagatti',1,'Light Heavyweight',TKO
+10,0,4,'Yves Lavigne',3,Lightweight,Decision
+7,15,0,'Herb Dean',1,Lightweight,TKO
+?,0,3,'Steve Mazzagatti',3,Welterweight,TKO
+?,20,0,'Yves Lavigne',1,Heavyweight,KO
+5,10,3,'Mario Yamasaki',3,Featherweight,TKO
+1,0,4,'Steve Mazzagatti',1,Middleweight,KO
+6,14,1,'Herb Dean',2,'Light Heavyweight',TKO
+10,0,1,'Herb Dean',2,Welterweight,TKO
+0,0,2,'Dan Miragliotta',1,Middleweight,TKO
+6,0,5,'Mario Yamasaki',3,Welterweight,Decision
+2,0,1,'Herb Dean',3,Middleweight,Decision
+0,37,2,'Dan Miragliotta',1,Heavyweight,TKO
+10,15,1,'Herb Dean',1,Welterweight,Submission
+1,10,3,'Dan Miragliotta',2,Lightweight,KO
+2,0,1,'Mario Yamasaki',2,Welterweight,Submission
+4,0,4,'Herb Dean',1,'Light Heavyweight',TKO
+?,15,3,'Dan Miragliotta',3,Lightweight,Decision
+6,26,1,'Mario Yamasaki',2,Heavyweight,TKO
+11,0,6,'Steve Mazzagatti',3,Middleweight,Decision
+3,15,3,'Herb Dean',1,Welterweight,Submission
+0,28,1,'Josh Rosenthal',3,Lightweight,TKO
+10,10,2,'Steve Mazzagatti',3,Lightweight,Decision
+12,0,1,'Herb Dean',3,Welterweight,Decision
+6,0,3,'Josh Rosenthal',2,Lightweight,Submission
+7,22,3,'Steve Mazzagatti',1,Middleweight,TKO
+1,15,0,'Herb Dean',2,Welterweight,TKO
+1,1,0,'Josh Rosenthal',1,Middleweight,Submission
+1,15,?,'Herb Dean',1,Welterweight,Submission
+1,1,2,'Yves Lavigne',5,'Light Heavyweight',Decision
+4,0,0,'Herb Dean',3,Welterweight,Decision
+1,0,3,'Steve Mazzagatti',2,Lightweight,Submission
+3,0,1,'Yves Lavigne',3,Welterweight,Decision
+11,15,4,'Herb Dean',3,Lightweight,Decision
+3,23,0,'Steve Mazzagatti',1,Heavyweight,Submission
+7,9,4,'Yves Lavigne',3,Featherweight,Submission
+4,10,2,'Herb Dean',1,Lightweight,TKO
+5,13,5,'Steve Mazzagatti',2,Lightweight,Submission
+3,20,?,'Mario Yamasaki',1,Middleweight,KO
+4,0,2,'Steve Mazzagatti',3,'Light Heavyweight',Decision
+7,10,0,'Yves Lavigne',3,Featherweight,Decision
+2,36,2,'Mario Yamasaki',1,Heavyweight,TKO
+4,35,2,'Steve Mazzagatti',3,Welterweight,TKO
+1,0,1,'Yves Lavigne',1,Middleweight,Submission
+9,18,1,'Mario Yamasaki',1,Middleweight,TKO
+?,28,1,'Steve Mazzagatti',1,Middleweight,KO
+?,8,2,'Yves Lavigne',1,Welterweight,Submission
+1,1,1,'Steve Mazzagatti',2,Welterweight,TKO
+?,10,0,'Yves Lavigne',1,Featherweight,Submission
+3,13,2,'Yves Lavigne',5,Welterweight,Decision
+1,14,1,'Dan Miragliotta',3,Heavyweight,Decision
+0,0,5,'Yves Lavigne',1,Bantamweight,KO
+7,10,1,'Dan Miragliotta',3,Featherweight,Decision
+2,15,2,'Yves Lavigne',3,Welterweight,Submission
+6,0,4,'Dan Miragliotta',3,Welterweight,Decision
+?,?,?,'Yves Lavigne',1,Heavyweight,TKO
+10,20,2,'Daryl Guthmiller',3,'Light Heavyweight',Decision
+4,19,3,'Nick Gamst',3,Lightweight,Decision
+1,0,3,'Daryl Guthmiller',2,Welterweight,Submission
+10,0,3,'Herb Dean',2,'Light Heavyweight',KO
+2,20,1,'Mario Yamasaki',3,Middleweight,TKO
+10,15,5,'Herb Dean',3,Middleweight,Decision
+3,15,0,'Mario Yamasaki',1,Middleweight,TKO
+0,0,1,'Mario Yamasaki',3,Welterweight,Decision
+5,10,1,'Yves Lavigne',3,Lightweight,Decision
+?,0,1,'Herb Dean',1,'Light Heavyweight',TKO
+2,20,4,'Yves Lavigne',2,Middleweight,Submission
+2,1,2,'Herb Dean',3,Welterweight,Decision
+2,15,1,'Josh Rosenthal',3,Lightweight,Decision
+1,10,1,'Yves Lavigne',3,Featherweight,Decision
+4,20,0,'Dan Miragliotta',3,Middleweight,Decision
+5,18,3,'Josh Rosenthal',1,Middleweight,Submission
+1,0,1,'Yves Lavigne',1,Middleweight,KO
+1,44,4,'Dan Miragliotta',2,Heavyweight,Submission
+2,15,1,'Josh Arney',2,Lightweight,TKO
+?,48,2,'Mark Powell',2,'Light Heavyweight',TKO
+4,0,2,'Jim Axtel',1,Middleweight,Submission
+0,15,3,'Josh Arney',1,Middleweight,Submission
+1,0,3,'Dan Miragliotta',3,Middleweight,Decision
+2,20,0,'Kevin Mulhall',3,Middleweight,Decision
+3,0,4,'Marc Goddard',2,'Light Heavyweight',TKO
+5,15,1,'Kevin Mulhall',3,Welterweight,Decision
+11,1,1,'Marc Goddard',2,Welterweight,Submission
+8,15,3,'Dan Miragliotta',3,Welterweight,Decision
+?,12,4,'Dan Miragliotta',1,Heavyweight,TKO
+?,0,1,'Kevin Mulhall',3,Welterweight,Decision
+2,0,4,'Leon Roberts',3,Lightweight,Decision
+?,10,3,'Marc Goddard',3,Lightweight,Submission
+5,10,?,'Leon Roberts',3,Featherweight,Submission
+5,15,3,'Herb Dean',3,Middleweight,TKO
+6,0,0,'David Smith',3,Welterweight,Decision
+3,0,1,'Todd Frederickson',3,Lightweight,Decision
+7,3,0,'Marc Fennell',1,Heavyweight,TKO
+11,0,0,'David Smith',3,Lightweight,Decision
+3,0,1,'Marc Fennell',1,Middleweight,Submission
+5,10,3,'David Smith',3,Lightweight,Submission
+3,1,2,'Mike Reid',3,Middleweight,Decision
+1,15,4,'Todd Frederickson',3,Lightweight,Decision
+2,24,1,'Mike Reid',3,Middleweight,Decision
+14,61,2,'Mario Yamasaki',2,Heavyweight,TKO
+6,10,3,'Herb Dean',1,Featherweight,Submission
+0,15,3,'Steve Mazzagatti',1,Lightweight,Submission
+3,1,0,'Steve Mazzagatti',1,Heavyweight,KO
+5,15,0,'Herb Dean',1,Welterweight,Submission
+3,1,0,'Mario Yamasaki',3,Lightweight,Decision
+2,10,0,'Steve Mazzagatti',3,Featherweight,KO
+1,10,0,'Mario Yamasaki',3,Lightweight,Submission
+3,0,0,'Herb Dean',2,Welterweight,Submission
+3,15,1,'Mario Yamasaki',1,Welterweight,KO
+0,1,1,'Dan Miragliotta',1,Welterweight,TKO
+4,20,1,'Mario Yamasaki',1,Middleweight,TKO
+?,15,1,'Dan Miragliotta',2,Middleweight,TKO
+0,0,2,'Mario Yamasaki',3,Lightweight,Decision
+?,22,4,'Al Coley',3,Middleweight,Decision
+?,4,2,'Donnie Jessup',2,Middleweight,Submission
+?,2,5,'Al Coley',1,Welterweight,TKO
+?,13,6,'Donnie Jessup',2,Lightweight,TKO
+6,21,1,'Dan Miragliotta',3,Heavyweight,Decision
+2,10,0,'Steve Mazzagatti',3,Lightweight,Decision
+1,0,1,'Herb Dean',1,'Light Heavyweight',TKO
+4,35,2,'Mario Yamasaki',3,'Light Heavyweight',KO
+3,34,0,'Josh Rosenthal',1,Heavyweight,Submission
+?,21,4,'Steve Mazzagatti',2,Middleweight,Submission
+7,20,3,'Herb Dean',2,'Light Heavyweight',Submission
+3,21,3,'Mario Yamasaki',1,'Light Heavyweight',Submission
+1,0,4,'Josh Rosenthal',3,'Light Heavyweight',Decision
+3,11,4,'Mario Yamasaki',3,Featherweight,Decision
+0,10,6,'Josh Rosenthal',2,Featherweight,Submission
+0,0,4,'Steve Mazzagatti',3,'Light Heavyweight',TKO
+3,22,0,'Herb Dean',2,Heavyweight,TKO
+1,0,0,'Yves Lavigne',1,Middleweight,TKO
+2,21,3,'Yves Lavigne',1,'Light Heavyweight',KO
+2,1,2,'Steve Mazzagatti',1,Heavyweight,TKO
+5,0,1,'Herb Dean',3,Middleweight,Decision
+1,23,4,'Yves Lavigne',2,Heavyweight,TKO
+3,0,2,'Steve Mazzagatti',2,'Light Heavyweight',TKO
+1,0,1,'Herb Dean',3,Welterweight,Decision
+?,?,?,'Yves Lavigne',1,Heavyweight,TKO
+4,0,0,'Dan Miragliotta',3,Middleweight,Decision
+17,0,0,'Kevin Mulhall',3,'Light Heavyweight',TKO
+5,16,5,'Leon Roberts',3,Welterweight,Decision
+7,0,3,'Dan Miragliotta',2,Middleweight,Submission
+1,0,3,'Marc Goddard',3,Welterweight,Decision
+?,11,3,'Marc Goddard',1,Welterweight,TKO
+?,0,4,'Kevin Mulhall',2,Welterweight,TKO
+4,20,0,'Dan Miragliotta',1,Middleweight,TKO
+?,40,0,'Leon Roberts',1,Middleweight,KO
+4,10,2,'Kevin Mulhall',3,Featherweight,TKO
+3,25,1,'Herb Dean',4,Welterweight,TKO
+4,23,0,'Yves Lavigne',1,Middleweight,KO
+10,0,1,'Steve Mazzagatti',3,'Light Heavyweight',Decision
+1,1,3,'Josh Rosenthal',3,Welterweight,No
+4,10,5,'Yves Lavigne',3,Featherweight,Decision
+4,28,3,'Steve Mazzagatti',3,Middleweight,Decision
+3,10,2,'Josh Rosenthal',3,Featherweight,Decision
+6,16,6,'Herb Dean',3,Welterweight,Decision
+?,29,1,'Yves Lavigne',3,'Light Heavyweight',Decision
+3,30,1,'Steve Mazzagatti',3,Middleweight,Decision
+2,10,0,'Troy Waugh',2,Lightweight,Submission
+2,6,1,'Jorge Ortiz',2,Heavyweight,TKO
+3,15,3,'Jorge Alonso',2,Welterweight,Submission
+3,22,5,'Troy Waugh',1,'Light Heavyweight',TKO
+2,20,2,'Jorge Ortiz',2,Lightweight,Submission
+1,20,0,'Jorge Alonso',1,Middleweight,Submission
+0,25,1,'Troy Waugh',1,Welterweight,TKO
+7,0,1,'Jorge Ortiz',1,Lightweight,Submission
+1,12,2,'Jorge Alonso',2,Middleweight,Submission
+5,4,3,'Troy Waugh',3,Welterweight,Decision
+1,0,3,'Dan Miragliotta',3,Lightweight,Decision
+0,7,0,'Kevin Mulhall',1,Welterweight,KO
+1,34,2,'Leon Roberts',3,Middleweight,TKO
+0,35,1,'Dan Miragliotta',1,Welterweight,Submission
+4,0,1,'Marc Goddard',1,Welterweight,TKO
+6,0,2,'Kevin Mulhall',2,Lightweight,TKO
+4,26,8,'Dan Miragliotta',1,Heavyweight,TKO
+1,10,0,'Marc Goddard',1,Lightweight,TKO
+8,60,6,'Leon Roberts',1,'Light Heavyweight',Submission
+4,1,0,'Kevin Mulhall',3,Welterweight,Decision
+3,21,1,'Yves Lavigne',3,'Light Heavyweight',Decision
+4,4,0,'Dan Miragliotta',1,Heavyweight,TKO
+1,9,1,'Yves Lavigne',1,Welterweight,TKO
+2,20,2,'Dan Miragliotta',1,'Light Heavyweight',KO
+4,0,0,'Dan Miragliotta',3,Lightweight,Decision
+?,0,4,'Yves Lavigne',1,Welterweight,Submission
+3,0,6,'Rick Fike',1,Middleweight,TKO
+6,0,0,'Dan Miragliotta',3,'Light Heavyweight',Decision
+?,0,2,'Yves Lavigne',2,'Light Heavyweight',TKO
+4,9,0,'Rick Fike',1,Featherweight,TKO
+2,0,1,'Herb Dean',3,Welterweight,Decision
+2,50,0,'Dan Miragliotta',3,'Light Heavyweight',Decision
+0,0,3,'Mario Yamasaki',3,Lightweight,Decision
+1,35,3,'Herb Dean',1,Featherweight,Submission
+3,10,1,'Mario Yamasaki',3,Lightweight,Decision
+2,16,0,'Dan Miragliotta',3,Welterweight,Decision
+?,0,2,'Herb Dean',1,Welterweight,Submission
+4,12,3,'Mario Yamasaki',2,Middleweight,Submission
+9,0,1,'Dan Miragliotta',3,Middleweight,Decision
+1,15,2,'Herb Dean',1,Welterweight,TKO
+?,4,1,'Mario Yamasaki',1,Welterweight,TKO
+6,0,1,'Yves Lavigne',5,Middleweight,Decision
+1,0,1,'Dan Miragliotta',3,Lightweight,Decision
+12,0,1,'Mario Yamasaki',1,'Light Heavyweight',TKO
+3,20,0,'Dan Miragliotta',1,'Light Heavyweight',Submission
+1,6,0,'Yves Lavigne',2,Heavyweight,TKO
+5,20,0,'Mario Yamasaki',3,'Light Heavyweight',Decision
+5,0,2,'Philippe Chartier',3,Middleweight,Decision
+3,0,2,'Mario Yamasaki',1,Middleweight,TKO
+1,13,2,'Philippe Chartier',3,'Light Heavyweight',Decision
+2,15,1,'Dan Miragliotta',1,Lightweight,Submission
+8,14,1,'Philippe Chartier',3,Lightweight,Decision
+4,0,0,'Yves Lavigne',3,'Light Heavyweight',Decision
+1,20,2,'Mario Yamasaki',2,Middleweight,KO
+1,0,3,'Steve Mazzagatti',3,Welterweight,Decision
+4,0,1,'Yves Lavigne',1,Middleweight,TKO
+4,20,0,'Yves Lavigne',3,'Light Heavyweight',Decision
+8,10,0,'Herb Dean',3,Featherweight,Decision
+2,0,2,'Mario Yamasaki',1,Welterweight,Submission
+4,27,5,'Steve Mazzagatti',1,Heavyweight,Submission
+2,25,1,'Yves Lavigne',1,Welterweight,TKO
+0,20,1,'Herb Dean',1,'Light Heavyweight',KO
+?,13,1,'Steve Mazzagatti',1,Lightweight,Submission
+?,24,7,'Herb Dean',3,Bantamweight,Decision
+2,0,3,'Mario Yamasaki',3,Middleweight,Decision
+7,7,3,'Dan Miragliotta',3,Heavyweight,Decision
+1,8,0,'Dan Miragliotta',1,Heavyweight,TKO
+4,0,2,'Leon Roberts',2,Welterweight,TKO
+1,10,0,'Mario Yamasaki',3,Lightweight,Decision
+9,0,4,'Marc Goddard',3,Welterweight,Decision
+3,0,2,'Leon Roberts',2,Lightweight,Submission
+?,10,3,'Marc Goddard',1,Featherweight,Submission
+8,14,0,'Leon Roberts',3,Lightweight,Decision
+3,24,6,'Mario Yamasaki',3,Welterweight,Decision
+8,18,12,'Dan Miragliotta',2,Heavyweight,Submission
+3,0,4,N/A,3,Welterweight,Decision
+0,10,3,'Josh Rosenthal',3,Lightweight,Decision
+4,0,1,'Steve Mazzagatti',1,Welterweight,Submission
+6,0,1,'Herb Dean',3,Welterweight,Decision
+3,0,3,'Herb Dean',3,Lightweight,Decision
+3,0,5,'Steve Mazzagatti',3,Lightweight,Decision
+0,0,1,'Josh Rosenthal',3,Lightweight,Decision
+7,1,0,'Kim Winslow',3,Welterweight,Decision
+3,19,1,'Herb Dean',1,Middleweight,TKO
+0,0,2,'Kim Winslow',1,Welterweight,Submission
+7,13,1,'Josh Rosenthal',1,Welterweight,Submission
+3,13,1,'Yves Lavigne',3,Middleweight,Decision
+2,2,0,'Herb Dean',2,Heavyweight,TKO
+2,0,0,'Steve Mazzagatti',5,Welterweight,Decision
+9,0,1,'Mario Yamasaki',2,Middleweight,KO
+9,15,4,'Mario Yamasaki',3,Welterweight,Decision
+13,0,2,'Herb Dean',3,'Light Heavyweight',Decision
+3,0,0,'Steve Mazzagatti',3,Lightweight,Decision
+3,0,1,'Yves Lavigne',2,'Light Heavyweight',Submission
+3,15,3,'Mario Yamasaki',3,Welterweight,Decision
+0,20,2,'Yves Lavigne',1,'Light Heavyweight',TKO
+0,0,2,'Herb Dean',1,Featherweight,Submission
+4,15,3,N/A,3,Lightweight,Decision
+3,1,9,'Mario Yamasaki',3,Welterweight,Decision
+0,0,0,'Marc Goddard',3,Middleweight,Decision
+1,15,0,N/A,3,Welterweight,Decision
+4,20,3,'Marc Goddard',2,Lightweight,Submission
+1,16,4,'Keith Peterson',3,Welterweight,TKO
+2,0,1,'Dan Miragliotta',4,Featherweight,Submission
+4,20,1,'Kevin Mulhall',1,Middleweight,KO
+4,9,0,'Kevin Mulhall',3,Lightweight,Decision
+3,0,2,'Dan Miragliotta',1,Welterweight,TKO
+6,15,7,N/A,3,Welterweight,Decision
+13,37,2,'Mario Yamasaki',3,Heavyweight,Decision
+7,23,1,'Herb Dean',1,Heavyweight,TKO
+2,20,2,'Yves Lavigne',3,'Light Heavyweight',TKO
+2,15,0,'Dave Hagen',1,Middleweight,KO
+0,0,1,'Herb Dean',3,'Light Heavyweight',Decision
+6,35,2,'Yves Lavigne',2,Welterweight,TKO
+4,2,0,'Dave Hagan',1,Heavyweight,TKO
+0,21,1,'Herb Dean',3,Heavyweight,Decision
+2,23,1,'Mario Yamasaki',1,Heavyweight,KO
+3,12,0,'Yves Lavigne',3,Middleweight,Decision
+8,15,0,'Shawn Gregory',3,Lightweight,Decision
+2,0,3,'Herb Dean',2,Lightweight,Submission
+4,0,1,'Dan Miragliotta',3,Lightweight,Decision
+1,0,4,'Leon Roberts',3,Welterweight,Decision
+5,0,3,'Herb Dean',3,Middleweight,Decision
+6,0,1,'Kevin Nix',3,Middleweight,Decision
+2,15,0,'Dan Miragliotta',3,Welterweight,Submission
+2,0,0,'Leon Roberts',3,Middleweight,Decision
+3,10,2,'Kevin Nix',1,Featherweight,TKO
+3,0,3,'Tom Jones',3,Welterweight,Decision
+4,11,5,'Gary Ritter',1,Middleweight,TKO
+3,0,1,'Yves Lavigne',1,Middleweight,TKO
+10,12,2,'Dan Miragliotta',3,Heavyweight,Submission
+1,1,3,'Yves Lavigne',1,Welterweight,TKO
+5,11,2,'Leon Roberts',1,Welterweight,TKO
+10,0,0,'Dan Miragliotta',2,Lightweight,TKO
+2,10,4,'Yves Lavigne',1,Lightweight,TKO
+4,0,1,'Leon Roberts',2,Middleweight,Submission
+1,0,3,'Don Turnage',2,Lightweight,TKO
+2,10,0,'Kerry Hatley',3,Featherweight,Decision
+0,15,0,'Dan Miragliotta',2,Welterweight,Submission
+5,0,4,'Don Turnage',3,'Light Heavyweight',Decision
+8,0,1,'Leon Roberts',3,'Light Heavyweight',Decision
+3,20,1,'Kerry Hatley',3,Lightweight,Decision
+3,20,0,'Herb Dean',5,Middleweight,Decision
+1,22,3,'Steve Mazzagatti',2,Heavyweight,TKO
+0,15,1,'Josh Rosenthal',3,Lightweight,Decision
+6,0,0,'Herb Dean',2,Lightweight,Submission
+10,50,3,'Steve Mazzagatti',1,'Light Heavyweight',TKO
+6,20,1,'Josh Rosenthal',3,'Light Heavyweight',Decision
+3,3,5,'Josh Rosenthal',2,Heavyweight,TKO
+4,20,1,'Steve Mazzagatti',3,'Light Heavyweight',Decision
+9,15,3,'Jason Herzog',3,Middleweight,TKO
+0,0,1,'Jason Herzog',3,'Light Heavyweight',Decision
+?,1,9,'Jason Herzog',1,Heavyweight,Submission
+14,2,1,'Marc Goddard',3,'Light Heavyweight',Decision
+3,0,1,'Kevin Mulhall',3,Welterweight,Decision
+2,0,3,'Dan Miragliotta',2,Middleweight,TKO
+3,0,1,'Leon Roberts',3,Welterweight,TKO
+4,0,1,'Marc Goddard',2,Lightweight,TKO
+8,15,2,'Kevin Mulhall',3,Welterweight,Decision
+5,10,3,'Dan Miragliotta',2,Lightweight,Submission
+2,0,0,'Marc Goddard',3,Welterweight,TKO
+5,24,2,'Dan Miragliotta',2,Featherweight,TKO
+5,0,1,'Kevin Mulhall',1,'Light Heavyweight',KO
+0,10,4,'Leon Roberts',1,Lightweight,KO
+4,0,1,'Josh Rosenthal',3,'Light Heavyweight',Decision
+7,35,4,'Mario Yamasaki',2,Welterweight,Submission
+1,0,2,'Steve Mazzagatti',3,Welterweight,Decision
+5,0,0,'Steve Mazzagatti',1,'Light Heavyweight',TKO
+4,0,2,'Yves Lavigne',3,Welterweight,Decision
+10,0,7,'Josh Rosenthal',1,Welterweight,KO
+0,20,5,'Mario Yamasaki',1,Middleweight,Submission
+7,15,1,'Yves Lavigne',2,Lightweight,Submission
+3,10,2,'Mario Yamasaki',3,Featherweight,Draw
+3,3,0,'Yves Lavigne',2,Lightweight,Submission
+7,11,4,'Herb Dean',1,Heavyweight,KO
+11,0,2,'Steve Mazzagatti',1,'Light Heavyweight',DQ
+2,22,2,'Josh Rosenthal',3,Heavyweight,Decision
+0,25,1,'Herb Dean',2,Featherweight,Submission
+5,10,3,'Steve Mazzagatti',2,Heavyweight,KO
+5,51,2,'Josh Rosenthal',3,'Light Heavyweight',TKO
+7,43,3,'Herb Dean',3,Heavyweight,Decision
+1,20,4,'Steve Mazzagatti',3,Middleweight,Decision
+8,10,2,'Josh Rosenthal',3,Welterweight,KO
+2,1,1,'Herb Dean',1,Lightweight,Submission
+3,10,1,'Herb Dean',5,Featherweight,TKO
+4,28,1,'Herb Dean',1,Heavyweight,TKO
+2,13,4,'Mario Yamasaki',3,Middleweight,Decision
+5,0,3,'Mario Yamasaki',2,Featherweight,Submission
+14,60,9,'Dan Miragliotta',3,Heavyweight,Decision
+6,34,0,'Herb Dean',1,Middleweight,TKO
+1,9,1,'Mario Yamasaki',3,Lightweight,Decision
+3,0,1,N/A,3,Welterweight,Decision
+7,15,6,'Greg Franklin',2,Welterweight,Submission
+2,0,2,'Herb Dean',1,Welterweight,Submission
+4,15,2,'Greg Franklin',1,Lightweight,TKO
+3,3,2,'Yves Lavigne',3,'Light Heavyweight',Decision
+3,16,4,'Herb Dean',1,Welterweight,KO
+0,0,0,'Steve Mazzagatti',3,Lightweight,Decision
+5,15,2,'Mario Yamasaki',1,Lightweight,Submission
+8,33,2,'Herb Dean',1,Heavyweight,TKO
+2,0,3,'Yves Lavigne',1,Welterweight,Submission
+4,25,3,'Steve Mazzagatti',1,Featherweight,Submission
+1,10,2,'Mario Yamasaki',1,Middleweight,Submission
+10,0,4,'Yves Lavigne',2,Welterweight,TKO
+3,10,1,'Herb Dean',3,Lightweight,Decision
+6,0,4,'Mario Yamasaki',3,Lightweight,Decision
+5,0,1,'Dan Miragliotta',3,Lightweight,Submission
+9,35,0,'Kevin Mulhall',3,Welterweight,Decision
+3,1,1,'Mario Yamasaki',3,Welterweight,Decision
+1,0,3,'Dan Miragliotta',3,Middleweight,Decision
+2,0,1,'Kevin Mulhall',3,Welterweight,Decision
+0,0,1,'Mario Yamasaki',3,Featherweight,Draw
+15,15,1,'Dan Miragliotta',1,Welterweight,Submission
+2,15,1,N/A,3,Lightweight,Decision
+6,15,2,N/A,3,Welterweight,TKO
+3,11,2,N/A,3,Middleweight,Decision
+1,2,0,'Steve Mazzagatti',2,'Light Heavyweight',Submission
+2,20,1,'Josh Rosenthal',3,'Light Heavyweight',Decision
+2,0,2,'Herb Dean',2,Welterweight,TKO
+4,15,1,'Steve Mazzagatti',3,Welterweight,Decision
+2,11,2,'Josh Rosenthal',1,Welterweight,TKO
+3,0,3,'Herb Dean',3,Lightweight,Decision
+3,0,1,'Josh Rosenthal',3,Lightweight,Decision
+3,10,1,'Herb Dean',3,Bantamweight,Decision
+4,20,1,'Steve Mazzagatti',3,'Light Heavyweight',Decision
+8,4,2,'Josh Rosenthal',3,Heavyweight,Decision
+3,64,3,'Herb Dean',2,Middleweight,TKO
+6,1,2,'Herb Dean',1,Heavyweight,KO
+3,0,4,'Josh Rosenthal',3,Middleweight,Decision
+5,0,3,'Herb Dean',3,Lightweight,Decision
+8,20,0,'Josh Rosenthal',3,'Light Heavyweight',KO
+2,22,1,'Herb Dean',2,Heavyweight,TKO
+0,0,2,'John Sharp',3,'Light Heavyweight',TKO
+10,15,1,'Steve Perceval',1,Welterweight,Submission
+1,20,1,'John Sharp',3,Middleweight,Decision
+2,20,1,'Steve Perceval',3,Middleweight,TKO
+10,0,2,'Herb Dean',1,'Light Heavyweight',TKO
+5,19,2,'Josh Rosenthal',1,Heavyweight,TKO
+1,29,1,'Herb Dean',3,Heavyweight,Submission
+3,20,?,'Josh Rosenthal',1,Middleweight,TKO
+0,0,3,'Herb Dean',2,Featherweight,Submission
+9,0,2,'Adam Martinez',3,'Light Heavyweight',Decision
+6,25,0,'Tim Mills',1,Featherweight,TKO
+3,1,3,'Tom Johnson',1,Welterweight,KO
+?,26,1,'Adam Martinez',1,Heavyweight,TKO
+?,0,4,'Tim Mills',3,Welterweight,Decision
+2,20,4,'Tom Johnson',3,'Light Heavyweight',Decision
+1,0,2,'Kevin Mulhall',5,Welterweight,Decision
+4,8,1,'Dan Miragliotta',1,Heavyweight,KO
+1,0,1,'Yves Lavigne',2,Lightweight,Submission
+5,13,3,'Dan Miragliotta',3,Middleweight,Decision
+2,0,1,'Yves Lavigne',3,Lightweight,Decision
+3,22,0,'Keith Peterson',1,Lightweight,TKO
+5,0,1,'Dan Miragliotta',2,Welterweight,Submission
+2,15,5,'Kevin Mulhall',1,Welterweight,Submission
+1,0,6,'Kevin Mulhall',3,'Light Heavyweight',Decision
+0,0,2,'Keith Peterson',3,Welterweight,DQ
+2,10,2,'Mario Yamasaki',3,Featherweight,Submission
+12,16,12,'Dan Miragliotta',1,Heavyweight,TKO
+0,0,1,'Mario Yamasaki',2,Middleweight,TKO
+5,10,1,'Dan Miragliotta',3,Lightweight,Decision
+1,0,3,'Dale Frye',3,Lightweight,Decision
+6,15,1,'Bill Clancy',3,Welterweight,Decision
+3,10,2,'Dale Frye',3,Featherweight,Decision
+8,10,3,'Bill Clancy',1,Lightweight,TKO
+8,0,0,'Dale Frye',2,Middleweight,TKO
+1,15,4,'Bill Clancy',1,Welterweight,TKO
+0,0,1,'Dale Frye',3,Lightweight,Decision
+2,15,2,'Dan Miragliotta',5,Middleweight,Decision
+3,0,3,'Herb Dean',5,Featherweight,Decision
+6,1,1,'Herb Dean',3,Welterweight,TKO
+2,0,4,'Marc Goddard',2,Lightweight,Submission
+4,0,6,'Marc Goddard',2,Middleweight,TKO
+3,0,2,'Dan Miragliotta',1,'Light Heavyweight',Submission
+0,0,3,'Marc Goddard',3,Welterweight,Decision
+5,1,2,'Dan Miragliotta',3,Welterweight,TKO
+3,1,2,'Herb Dean',2,Welterweight,Submission
+7,13,2,N/A,3,Heavyweight,Decision
+3,20,0,'Yves Lavigne',1,'Light Heavyweight',KO
+6,1,1,'Dan Miragliotta',3,Welterweight,Decision
+2,10,0,'Mario Yamasaki',3,Featherweight,Decision
+4,30,1,'Dan Miragliotta',2,Heavyweight,TKO
+4,15,3,'Mario Yamasaki',2,Middleweight,Submission
+6,19,0,'Yves Lavigne',2,Middleweight,Submission
+6,1,4,'Phillipe Chatrier',2,Welterweight,TKO
+1,15,1,'Marc-Andre Cote',3,Welterweight,Decision
+2,79,3,'Mario Yamasaki',3,Middleweight,Decision
+0,0,1,'Phillipe Chatrier',3,Lightweight,Decision
+10,0,1,'Dan Miragliotta',1,Middleweight,TKO
+1,1,2,'Herb Dean',3,'Light Heavyweight',Decision
+2,0,1,'Steve Mazzagatti',3,Middleweight,Decision
+9,15,2,'Josh Rosenthal',3,Heavyweight,KO
+1,0,3,'Yves Lavigne',3,'Light Heavyweight',Decision
+6,15,4,'Herb Dean',3,Welterweight,Decision
+1,0,2,'Steve Mazzagatti',3,Welterweight,Decision
+2,15,1,'Josh Rosenthal',3,Lightweight,Decision
+3,5,2,'Yves Lavigne',1,Lightweight,KO
+8,0,4,'Herb Dean',1,'Light Heavyweight',TKO
+3,1,1,'Steve Mazzagatti',3,Lightweight,Decision
+7,9,4,'Josh Rosenthal',1,Middleweight,Submission
+5,20,1,'Herb Dean',1,Middleweight,KO
+5,10,3,'Yves Lavigne',3,Heavyweight,Submission
+1,0,1,'Herb Dean',3,Welterweight,Decision
+5,57,2,'Yves Lavigne',3,Heavyweight,Decision
+5,0,2,'Kevin Dornan',3,Welterweight,TKO
+3,0,4,'Herb Dean',3,Lightweight,Decision
+3,0,2,'Yves Lavigne',1,Lightweight,TKO
+1,7,3,'Tony Williamson',2,Middleweight,TKO
+9,1,1,'Kevin Dornan',3,Welterweight,Decision
+0,0,0,'Tony Williamson',2,Welterweight,Submission
+7,0,4,'Kevin Dornan',3,Welterweight,TKO
+3,0,1,'Steve Mazzagatti',2,Welterweight,Submission
+1,20,0,'Herb Dean',3,'Light Heavyweight',Decision
+6,15,1,'Josh Rosenthal',2,Middleweight,TKO
+3,10,0,'Kim Winslow',3,Featherweight,Decision
+6,0,4,'Steve Mazzagatti',2,Welterweight,TKO
+6,24,3,'Josh Rosenthal',3,Featherweight,Decision
+6,15,4,'Herb Dean',3,Middleweight,Decision
+0,15,1,'Kim Winslow',2,Welterweight,TKO
+3,19,0,'Josh Rosenthal',3,Middleweight,Decision
+2,30,3,'Kim Winslow',1,Heavyweight,TKO
+2,10,1,'Josh Rosenthal',2,Heavyweight,Submission
+5,15,1,'Herb Dean',3,Middleweight,Submission
+7,0,1,'Steve Mazzagatti',2,Welterweight,Submission
+0,0,2,'Mario Yamasaki',2,'Light Heavyweight',TKO
+2,0,2,'Josh Rosenthal',3,Lightweight,Decision
+8,22,2,'Herb Dean',1,Heavyweight,TKO
+1,0,0,'Steve Mazzagatti',2,'Light Heavyweight',Submission
+2,20,3,'Mario Yamasaki',3,Middleweight,Decision
+2,15,2,'Herb Dean',3,Welterweight,KO
+5,15,1,'Steve Mazzagatti',3,Welterweight,Decision
+5,17,0,'Mario Yamasaki',3,Heavyweight,Decision
+16,0,3,'Herb Dean',1,'Light Heavyweight',TKO
+3,0,2,'John McCarthy',3,Middleweight,Decision
+2,1,2,'Herb Dean',3,Welterweight,TKO
+6,0,2,'Jason Herzog',1,Lightweight,KO
+4,1,0,'John McCarthy',3,Welterweight,Decision
+4,0,1,'Jason Herzog',2,Welterweight,TKO
+1,0,?,'Herb Dean',1,'Light Heavyweight',Submission
+2,0,1,'John McCarthy',3,Middleweight,Submission
+5,0,1,'Herb Dean',1,Featherweight,Submission
+0,16,5,'Jason Herzog',3,Welterweight,Decision
+2,20,1,'Josh Rosenthal',5,Middleweight,Submission
+5,13,2,'Herb Dean',3,Middleweight,Decision
+3,10,2,'Herb Dean',3,Featherweight,Submission
+3,0,2,'Josh Rosenthal',1,Welterweight,TKO
+8,10,4,'Marcos Rosales',3,Heavyweight,Decision
+2,15,3,'Josh Rosenthal',2,Welterweight,TKO
+3,0,5,'Herb Dean',3,'Light Heavyweight',Decision
+2,15,1,'Josh Rosenthal',2,Welterweight,TKO
+5,20,0,'Marcos Rosales',3,'Light Heavyweight',Decision
+2,4,6,'Herb Dean',2,Heavyweight,KO
+8,11,6,'Marcos Rosales',3,Middleweight,Decision
+3,0,3,'Herb Dean',5,Featherweight,Decision
+5,34,3,'Mario Yamasaki',1,'Light Heavyweight',Submission
+1,15,3,'Herb Dean',3,Welterweight,Decision
+3,10,2,'Mario Yamasaki',3,Lightweight,Decision
+12,15,4,'Yves Lavigne',3,Lightweight,TKO
+7,0,1,'Herb Dean',1,Lightweight,Submission
+3,10,3,'Josh Rosenthal',3,Featherweight,Decision
+4,0,0,'Mario Yamasaki',2,Middleweight,Submission
+2,0,2,'Yves Lavigne',3,Welterweight,Decision
+1,31,4,'Josh Rosenthal',3,Welterweight,Submission
+1,15,4,'Herb Dean',1,Middleweight,TKO
+3,10,2,'Kerry Hatley',3,Featherweight,Submission
+0,0,2,'Jon Schorle',3,Lightweight,Decision
+0,10,5,'Herb Dean',2,Featherweight,Submission
+3,10,1,'Kerry Hatley',3,Lightweight,Decision
+0,0,1,'Jon Schorle',3,'Light Heavyweight',Decision
+1,0,0,'Herb Dean',3,Middleweight,Decision
+5,15,2,'Kerry Hatley',3,Welterweight,Decision
+9,15,1,'Jon Schorle',3,Welterweight,Decision
+9,30,1,'Herb Dean',1,Lightweight,TKO
+5,35,1,'Herb Dean',3,Heavyweight,KO
+7,0,0,'Josh Rosenthal',3,'Light Heavyweight',Decision
+0,0,5,'Herb Dean',3,Welterweight,Decision
+8,0,4,'Rob Hinds',3,Lightweight,Decision
+3,10,0,'Josh Rosenthal',3,Lightweight,Decision
+6,1,2,'Jeff Malott',1,Middleweight,Submission
+3,70,2,'Herb Dean',3,Heavyweight,Decision
+2,10,5,'Rob Hinds',1,Featherweight,Submission
+4,5,4,'Herb Dean',3,Welterweight,Decision
+?,15,2,'Jeff Malott',3,Lightweight,Decision
+2,50,9,'Josh Rosenthal',1,'Super Heavyweight',Submission
+4,15,4,'Marc Goddard',3,Middleweight,Decision
+2,0,1,'Dan Miragliotta',1,Welterweight,KO
+12,0,1,'Leon Roberts',3,Welterweight,Decision
+7,2,3,'Marc Goddard',3,Heavyweight,Draw
+2,0,3,'Dan Miragliotta',3,Welterweight,Decision
+14,0,2,'Leon Roberts',2,'Light Heavyweight',Submission
+0,21,5,'Marc Goddard',3,Heavyweight,Submission
+3,14,1,'Dan Miragliotta',1,Lightweight,Submission
+?,0,5,'Leon Roberts',3,Lightweight,Decision
+0,1,3,'Marc Goddard',3,'Light Heavyweight',TKO
+7,5,1,'Herb Dean',3,Welterweight,Submission
+3,35,1,'John McCarthy',3,'Light Heavyweight',Decision
+6,15,2,'Jason Herzog',1,Welterweight,Submission
+5,0,3,'Herb Dean',3,Lightweight,Decision
+2,0,4,'Jason Herzog',3,Middleweight,Decision
+4,16,2,'John McCarthy',1,Heavyweight,TKO
+5,23,2,'Herb Dean',1,Heavyweight,TKO
+3,0,0,'John McCarthy',3,Welterweight,Decision
+0,15,1,'Jason Herzog',3,Lightweight,Decision
+1,0,0,'John McCarthy',3,'Light Heavyweight',Decision
+4,20,2,'Jason Herzog',3,Heavyweight,Decision
+2,0,2,'Leon Roberts',3,Middleweight,Decision
+2,10,4,'Kevin Mulhall',1,Featherweight,Submission
+7,1,1,'Leon Roberts',3,Welterweight,Decision
+7,0,2,'Marc Goddard',3,'Light Heavyweight',Decision
+6,0,3,'Marc Goddard',3,Welterweight,Decision
+8,1,6,'Kevin Mulhall',1,'Light Heavyweight',TKO
+?,0,4,'Leon Roberts',3,Welterweight,Decision
+1,0,3,'Kevin Mulhall',2,Welterweight,Submission
+6,0,0,'Leon Roberts',1,'Light Heavyweight',TKO
+0,0,2,'Marc Goddard',1,Welterweight,Submission
+0,21,0,'Herb Dean',3,'Light Heavyweight',Decision
+5,25,0,'Dan Miragliotta',1,Featherweight,KO
+2,15,0,'Dan Miragliotta',3,Middleweight,Decision
+3,0,3,'Herb Dean',2,'Light Heavyweight',Submission
+7,0,1,'Marc Fennel',2,Lightweight,Submission
+3,15,2,'Herb Dean',2,Lightweight,Submission
+4,15,0,'Marc Fennel',3,Middleweight,Decision
+7,12,1,'Dan Miragliotta',1,Middleweight,TKO
+7,10,3,'Marc Fennel',3,Lightweight,TKO
+3,14,5,'Dan Miragliotta',2,Welterweight,TKO
+0,10,2,'Herb Dean',3,Featherweight,Decision
+1,20,2,'Steve Mazzagatti',3,Bantamweight,Decision
+2,0,3,'Steve Mazzagatti',3,'Light Heavyweight',Decision
+5,15,6,'Josh Rosenthal',3,Welterweight,Decision
+1,0,1,'Steve Mazzagatti',3,Welterweight,Decision
+4,4,3,'Herb Dean',3,Featherweight,Decision
+?,0,2,'Chris Tognoni',1,Welterweight,Submission
+?,10,1,'Josh Rosenthal',3,Bantamweight,Decision
+5,1,?,'Herb Dean',3,Lightweight,Decision
+1,10,2,'Chris Tognoni',3,Bantamweight,Submission
+4,0,3,'Steve Mazzagatti',1,Featherweight,KO
+4,15,3,'Josh Rosenthal',3,Middleweight,Decision
+4,0,0,'Herb Dean',5,Welterweight,Decision
+12,47,5,'Yves Lavigne',1,Heavyweight,TKO
+6,10,3,'Dan Miragliotta',1,Lightweight,Submission
+2,0,1,'Dan Miragliotta',1,Lightweight,KO
+0,1,3,'Yves Lavigne',3,Welterweight,Decision
+4,1,1,'Marc-Andre Cote',3,Middleweight,Decision
+5,0,4,'Philippe Chartier',1,Lightweight,Submission
+2,0,0,'Dan Miragliotta',3,Middleweight,Draw
+10,0,0,'Yves Lavigne',3,Welterweight,Decision
+8,15,1,'Philippe Chartier',3,Welterweight,Decision
+1,0,4,'Herb Dean',3,Lightweight,Decision
+2,10,2,'Yves Lavigne',5,Featherweight,Draw
+0,0,2,'Josh Rosenthal',1,Middleweight,TKO
+5,3,1,'Steve Mazzagatti',3,Heavyweight,NC
+4,15,1,'Yves Lavigne',3,Welterweight,Decision
+3,10,1,'Josh Rosenthal',2,Featherweight,Submission
+13,25,1,'Kim Winslow',3,Featherweight,KO
+1,9,2,'Steve Mazzagatti',3,Lightweight,Decision
+11,15,2,'Josh Rosenthal',1,Middleweight,KO
+7,0,0,'Yves Lavigne',3,Featherweight,Decision
+6,0,1,'Kim Winslow',1,Welterweight,Submission
+10,15,1,'Steve Mazzagatti',3,Welterweight,Decision
+2,0,1,'Mario Yamasaki',1,Lightweight,TKO
+5,9,1,'Dan Miragliotta',1,Heavyweight,TKO
+1,10,5,'Don Turnage',1,Featherweight,TKO
+2,52,2,'Mario Yamasaki',3,Heavyweight,Decision
+1,10,3,'Dan Miragliotta',3,Lightweight,Decision
+11,15,2,'Jon Schorle',2,Lightweight,TKO
+8,15,0,'Don Turnage',1,Welterweight,Submission
+9,10,0,'Mario Yamasaki',3,Bantamweight,Decision
+7,5,1,'Dan Miragliotta',3,Welterweight,Decision
+2,46,2,'Jon Schorle',3,Lightweight,Decision
+5,0,6,'Don Turnage',3,Flyweight,Decision
+2,0,2,'Mario Yamasaki',1,Middleweight,KO
+5,20,2,'Steve Mazzagatti',3,'Light Heavyweight',Decision
+4,0,2,'Herb Dean',2,'Light Heavyweight',Submission
+4,0,1,'Kim Winslow',3,Welterweight,Decision
+2,20,6,'Mario Yamasaki',3,Featherweight,Decision
+1,14,2,'Steve Mazzagatti',2,Lightweight,Submission
+10,0,0,'Herb Dean',3,Featherweight,Decision
+9,10,1,'Mario Yamasaki',3,Flyweight,Decision
+2,0,2,'Kim Winslow',2,Lightweight,KO
+4,0,4,'Steve Mazzagatti',1,'Light Heavyweight',TKO
+4,0,2,'Herb Dean',2,Welterweight,TKO
+0,38,3,'Herb Dean',3,Middleweight,Draw
+7,0,1,'Marc Goddard',2,Middleweight,TKO
+2,10,3,'Leon Roberts',3,Featherweight,Decision
+6,0,1,'Steve Perceval',3,Welterweight,Decision
+6,15,2,'John Sharp',1,Welterweight,Submission
+8,0,1,'Herb Dean',3,Lightweight,Decision
+6,20,3,'Marc Goddard',1,'Light Heavyweight',Submission
+2,0,0,'Leon Roberts',3,Middleweight,Decision
+?,0,3,'John Sharp',1,'Light Heavyweight',Submission
+9,10,3,'Steve Perceval',1,Featherweight,Submission
+1,2,4,'John Sharp',2,Heavyweight,KO
+?,0,0,N/A,3,Lightweight,Decision
+1,15,2,'Herb Dean',3,Lightweight,Decision
+5,0,2,'Mario Yamasaki',1,Middleweight,KO
+3,0,1,'Gary Copeland',3,Middleweight,Decision
+2,10,1,'Chris Kinman',1,Bantamweight,TKO
+13,20,4,'Herb Dean',3,'Light Heavyweight',Decision
+3,0,2,'Gary Copeland',3,Lightweight,Decision
+5,10,3,'Mario Yamasaki',2,Lightweight,KO
+0,1,0,'Herb Dean',3,Bantamweight,Decision
+3,15,1,'Gary Copeland',2,Middleweight,TKO
+1,15,5,'Mario Yamasaki',2,Welterweight,Submission
+3,20,1,'Chris Kinman',1,'Light Heavyweight',TKO
+6,0,3,'Herb Dean',3,'Light Heavyweight',TKO
+5,0,1,'Keith Peterson',3,Bantamweight,Decision
+6,0,0,'Kevin Mulhall',3,Lightweight,TKO
+2,0,1,'Dan Miragliotta',3,Middleweight,Decision
+9,11,2,'Herb Dean',3,Heavyweight,KO
+1,0,1,'Dan Miragliotta',1,'Light Heavyweight',TKO
+6,0,1,'Keith Peterson',3,Lightweight,Decision
+1,0,2,'Kevin MacDonald',3,Welterweight,Decision
+4,0,2,'Herb Dean',3,Lightweight,Decision
+1,10,4,'Kevin Mulhall',3,Flyweight,Decision
+2,12,1,'Kevin MacDonald',3,Middleweight,Decision
+6,10,5,'Kevin Mulhall',1,Featherweight,KO
+8,0,0,'Herb Dean',3,'Light Heavyweight',Decision
+2,35,2,'Josh Rosenthal',3,'Light Heavyweight',Decision
+2,0,1,'Mario Yamasaki',2,Welterweight,Submission
+8,0,0,'Dan Miragliotta',2,Featherweight,Submission
+4,34,1,'Anthony Hamlett',2,Heavyweight,TKO
+8,10,0,'Mario Yamasaki',1,Featherweight,Submission
+6,0,2,'Herb Dean',3,Welterweight,Decision
+7,1,1,'Josh Rosenthal',3,Bantamweight,Decision
+10,51,1,'Anthony Hamlett',2,Heavyweight,TKO
+5,0,2,'Mario Yamasaki',1,Welterweight,TKO
+4,15,3,'Dan Miragliotta',3,Welterweight,Decision
+4,15,1,'Anthony Hamlett',3,Featherweight,Submission
+2,0,2,'Herb Dean',5,Welterweight,Decision
+4,0,1,'John McCarthy',5,Featherweight,Decision
+15,18,0,'Yves Lavigne',2,Middleweight,KO
+4,0,2,'Dan Miragliotta',1,'Light Heavyweight',KO
+2,0,0,'Yves Lavigne',3,Lightweight,Decision
+4,15,1,'John McCarthy',3,Welterweight,Decision
+9,0,4,'Herb Dean',1,Welterweight,KO
+0,0,0,'Dan Miragliotta',3,Welterweight,Decision
+8,0,3,'John McCarthy',1,Bantamweight,TKO
+2,10,4,'Herb Dean',1,Middleweight,Submission
+6,0,4,'Dan Miragliotta',3,Lightweight,KO
+4,10,7,'Yves Lavigne',1,Featherweight,Submission
+2,1,1,'Herb Dean',3,'Light Heavyweight',Decision
+3,13,3,'Josh Rosenthal',3,Heavyweight,Decision
+6,29,5,'Steve Mazzagatti',1,Heavyweight,KO
+1,0,0,'Kim Winslow',3,Welterweight,Decision
+0,15,0,'Herb Dean',2,Middleweight,TKO
+5,20,6,'Josh Rosenthal',3,Flyweight,Decision
+1,20,7,'Steve Mazzagatti',3,'Light Heavyweight',Decision
+1,0,2,'Kim Winslow',2,Lightweight,Submission
+10,11,5,'Josh Rosenthal',3,Bantamweight,Decision
+6,0,0,'Steve Mazzagatti',3,Bantamweight,Decision
+4,0,1,'Josh Rosenthal',1,Lightweight,KO
+6,10,2,'Steve Mazzagatti',3,Featherweight,Decision
+3,20,1,'Herb Dean',1,'Light Heavyweight',TKO
+2,0,3,'Chris Tognoni',3,'Light Heavyweight',Decision
+2,15,2,'Josh Rosenthal',3,Welterweight,Decision
+0,10,3,'Steve Mazzagatti',3,Featherweight,Decision
+7,11,2,'Herb Dean',3,Bantamweight,KO
+4,0,3,'Chris Tognoni',3,Welterweight,Decision
+3,5,3,'Josh Rosenthal',3,Welterweight,Decision
+0,0,3,'Steve Mazzagatti',1,Bantamweight,KO
+2,1,1,'Herb Dean',3,Bantamweight,Submission
+9,15,2,'Herb Dean',3,Heavyweight,Decision
+6,0,4,'John McCarthy',3,Featherweight,Decision
+1,15,0,'Jerin Valel',3,Middleweight,Decision
+9,28,2,'Kevin Dornan',2,Heavyweight,TKO
+1,0,0,'Herb Dean',3,Lightweight,Decision
+8,0,1,'John McCarthy',1,Lightweight,KO
+4,0,2,'Jerin Valel',1,Middleweight,Submission
+5,20,1,'Kevin Dornan',3,'Light Heavyweight',Decision
+5,15,2,'Herb Dean',3,Middleweight,Submission
+3,10,0,'John McCarthy',3,Lightweight,Decision
+2,20,2,'Jerin Valel',3,Middleweight,TKO
+9,0,4,'Kevin Dornan',3,Featherweight,Decision
+4,3,5,'Dan Miragliotta',1,Heavyweight,KO
+3,15,0,'Mark Matheny',3,Lightweight,Decision
+2,1,5,'Dan Miragliotta',3,Welterweight,Decision
+8,6,3,'Mark Matheny',2,Heavyweight,KO
+3,20,1,'Chip Snider',3,Lightweight,Decision
+5,10,0,'Keith Peterson',3,Featherweight,Decision
+?,0,3,'Chip Snider',1,Lightweight,Submission
+3,0,0,'Keith Peterson',3,Welterweight,Decision
+5,0,3,'Chip Snider',2,Featherweight,NC
+1,0,0,'Keith Peterson',1,Featherweight,TKO
+1,15,1,'Mark Matheny',1,Lightweight,TKO
+6,1,2,'Steve Mazzagatti',5,Bantamweight,Decision
+4,0,1,'Josh Rosenthal',1,Middleweight,KO
+4,10,3,'Yves Lavigne',3,Featherweight,Decision
+8,0,0,'Mario Yamasaki',1,'Light Heavyweight',Submission
+3,0,0,'Steve Mazzagatti',1,Welterweight,TKO
+4,0,1,'Josh Rosenthal',1,Lightweight,KO
+7,0,1,'Yves Lavigne',1,Lightweight,KO
+3,0,0,'Mario Yamasaki',3,Bantamweight,Decision
+13,15,1,'Josh Rosenthal',3,Welterweight,Decision
+1,0,1,'Yves Lavigne',3,Lightweight,Decision
+2,10,0,'Mario Yamasaki',3,Bantamweight,Decision
+4,0,3,'Dan Miragliotta',2,'Light Heavyweight',TKO
+2,15,2,'Mario Yamasaki',1,Middleweight,KO
+5,11,3,'Kevin Mulhall',1,Welterweight,TKO
+7,0,2,'Mario Yamasaki',3,Middleweight,Decision
+14,0,2,'Kevin Mulhall',1,Welterweight,TKO
+11,0,2,'Dan Miragliotta',2,'Light Heavyweight',TKO
+1,10,0,'Keith Peterson',3,Featherweight,Decision
+5,0,1,'Keith Peterson',3,Bantamweight,Decision
+3,0,1,'Mario Yamasaki',3,Welterweight,Decision
+8,4,0,'Keith Peterson',3,Featherweight,Decision
+1,15,3,'Kevin Mulhall',3,Middleweight,Decision
+8,0,1,'Herb Dean',3,Welterweight,Submission
+0,0,1,'Josh Rosenthal',3,Lightweight,Decision
+6,10,0,'Mario Yamasaki',1,Lightweight,TKO
+2,0,1,'Rob Hinds',3,Welterweight,Decision
+1,20,1,'Herb Dean',2,'Light Heavyweight',TKO
+0,10,3,'Josh Rosenthal',3,Flyweight,Decision
+0,35,1,'Mario Yamasaki',1,'Light Heavyweight',Submission
+3,15,1,'Rob Hinds',3,'Light Heavyweight',Decision
+1,10,0,'Herb Dean',2,Featherweight,Submission
+3,10,1,'Josh Rosenthal',2,Featherweight,Submission
+1,15,0,'Mario Yamasaki',3,Welterweight,Decision
+15,0,1,'Rob Hinds',2,Bantamweight,TKO
+6,0,0,'Herb Dean',2,Middleweight,TKO
+2,0,2,'Marc Goddard',1,'Light Heavyweight',KO
+2,0,3,'Mario Yamasaki',3,Lightweight,Decision
+7,2,1,'Herb Dean',1,Heavyweight,KO
+0,2,3,'Mario Yamasaki',1,'Light Heavyweight',TKO
+8,10,0,'Marc Goddard',2,Featherweight,TKO
+1,15,5,'Herb Dean',3,Welterweight,Decision
+2,15,1,'Mario Yamasaki',3,Welterweight,Decision
+2,0,2,'Marc Goddard',3,Bantamweight,Decision
+3,0,3,'Herb Dean',1,Welterweight,TKO
+8,1,1,'Mario Yamasaki',3,Bantamweight,Decision
+4,0,2,'Marc Goddard',3,Bantamweight,Decision
+5,15,1,'Yves Lavigne',2,Lightweight,Submission
+1,15,2,'Kevin Mulhall',3,Lightweight,Decision
+2,0,2,'Dan Miragliotta',3,Welterweight,Decision
+2,10,1,'Myron Gaudet',1,Bantamweight,TKO
+1,10,2,'Yves Lavigne',2,Welterweight,Submission
+2,0,1,'Dan Miragliotta',1,Welterweight,Submission
+7,0,0,'Myron Gaudet',3,Featherweight,Decision
+5,15,0,'Kevin Mulhall',3,Lightweight,Decision
+6,0,3,'Kevin Mulhall',1,Welterweight,TKO
+0,15,0,'Yves Lavigne',3,Welterweight,Decision
+3,10,2,'Myron Gaudet',3,Featherweight,Decision
+9,0,0,'Dan Miragliotta',1,Middleweight,Submission
+9,1,3,'Josh Rosenthal',4,'Light Heavyweight',Submission
+4,0,1,'Mario Yamasaki',1,Welterweight,KO
+7,1,6,'Adam Martinez',3,Heavyweight,Decision
+1,22,5,'Josh Rosenthal',3,Heavyweight,Decision
+7,0,4,'Mario Yamasaki',1,Lightweight,Submission
+4,0,3,'Tom Johnson',1,Lightweight,TKO
+2,20,1,'Mario Yamasaki',3,'Light Heavyweight',Decision
+2,0,3,'Josh Rosenthal',3,Featherweight,Decision
+2,0,0,'Adam Martinez',2,Bantamweight,TKO
+3,20,1,'Tim Mills',1,Middleweight,KO
+1,9,5,'Kevin Mulhall',5,Bantamweight,Decision
+9,28,13,'Dan Miragliotta',2,Heavyweight,Submission
+3,50,4,'Mario Yamasaki',1,'Light Heavyweight',KO
+3,0,2,'Fernando Yamasaki',3,Lightweight,Decision
+6,0,2,'Mario Yamasaki',2,Lightweight,TKO
+2,0,3,'Dan Miragliotta',1,Lightweight,Submission
+1,0,3,'Kevin Mulhall',2,Bantamweight,TKO
+5,0,0,'Fernando Yamasaki',3,Lightweight,TKO
+2,0,0,'Dan Miragliotta',2,Welterweight,TKO
+2,1,5,'Mario Yamasaki',1,Bantamweight,TKO
+2,10,2,'Josh Rosenthal',4,Featherweight,KO
+10,0,3,'Dan Miragliotta',5,Featherweight,Decision
+3,20,0,'Kerry Hatley',2,'Light Heavyweight',Submission
+4,4,3,'Jacob Montalvo',3,Featherweight,Decision
+1,0,0,'Kerry Hatley',1,Lightweight,Submission
+3,0,1,'Jacob Montalvo',3,Welterweight,Decision
+1,10,0,'Kerry Hatley',3,Lightweight,Decision
+1,60,3,'Josh Rosenthal',3,Heavyweight,Decision
+6,0,1,'Dan Miragliotta',3,Featherweight,Decision
+3,15,3,'Jacob Montalvo',3,Welterweight,Decision
+4,0,0,'Kerry Hatley',3,Middleweight,Decision
+5,25,4,'Josh Rosenthal',3,Welterweight,Decision
+3,21,1,'Herb Dean',3,Heavyweight,Decision
+2,22,2,'Steve Mazzagatti',3,Heavyweight,TKO
+5,0,1,'Kim Winslow',3,Bantamweight,Decision
+2,10,2,'Josh Rosenthal',3,Featherweight,Decision
+4,10,4,'Herb Dean',1,Lightweight,Submission
+1,10,3,'Steve Mazzagatti',1,Featherweight,KO
+3,0,1,'Kim Winslow',3,'Light Heavyweight',Decision
+2,0,1,'Josh Rosenthal',3,Lightweight,Decision
+5,15,3,'Herb Dean',3,Welterweight,Decision
+7,0,6,'Steve Mazzagatti',3,Middleweight,Decision
+2,0,1,'Marc Goddard',2,Middleweight,TKO
+9,10,1,'Leon Roberts',1,Bantamweight,Submission
+5,0,1,'Dan Miragliotta',1,Welterweight,Submission
+1,0,3,'Marc Goddard',2,'Light Heavyweight',Submission
+1,15,4,'Leon Roberts',1,Lightweight,Submission
+0,10,1,'Leon Roberts',3,Welterweight,Decision
+3,10,2,'Dan Miragliotta',3,Heavyweight,Decision
+11,0,3,'Leon Roberts',3,Featherweight,Decision
+1,15,3,'Marc Goddard',1,Lightweight,TKO
+1,10,2,'Dan Miragliotta',3,Flyweight,Decision
+2,2,3,'John McCarthy',1,Heavyweight,KO
+2,10,2,'Herb Dean',3,Lightweight,Decision
+6,10,4,'Larry Landless',2,Lightweight,Submission
+1,0,1,'John McCarthy',2,Featherweight,Submission
+2,10,1,'Herb Dean',1,Welterweight,KO
+2,10,2,'Larry Landless',3,Flyweight,Decision
+6,0,1,'John McCarthy',3,Featherweight,NC
+7,0,2,'Herb Dean',3,Bantamweight,Decision
+3,0,1,'Larry Landless',3,Welterweight,Decision
+?,0,2,'John McCarthy',3,'Light Heavyweight',Decision
+11,20,0,'Josh Rosenthal',5,Middleweight,Decision
+4,0,0,'Dan Stell',2,Middleweight,TKO
+1,0,1,'Jason McCoy',2,Bantamweight,Submission
+2,0,2,'Josh Rosenthal',3,Welterweight,Decision
+5,0,1,'Dan Stell',3,'Light Heavyweight',Decision
+8,0,3,'Jason McCoy',1,'Light Heavyweight',KO
+7,1,1,'Josh Rosenthal',1,Bantamweight,KO
+1,20,2,'Dan Stell',1,Middleweight,TKO
+1,0,1,'Jason McCoy',3,Lightweight,Decision
+6,10,2,'Josh Rosenthal',3,Featherweight,Decision
+0,0,3,'Dan Stell',2,Welterweight,Submission
+3,15,1,'Jason McCoy',1,Lightweight,TKO
+1,0,2,'Steve Mazzagatti',3,Middleweight,TKO
+1,0,1,'Josh Rosenthal',1,Featherweight,Submission
+2,10,3,'Herb Dean',1,Flyweight,TKO
+8,0,2,'Chris Tognoni',3,Lightweight,Decision
+1,10,6,'Steve Mazzagatti',3,Bantamweight,TKO
+3,10,5,'Josh Rosenthal',3,Bantamweight,Decision
+1,15,0,'Herb Dean',1,N/A,TKO
+?,10,4,'Chris Tognoni',3,Bantamweight,Submission
+6,19,4,'Herb Dean',3,Welterweight,Decision
+2,11,0,'Josh Rosenthal',2,Bantamweight,Submission
+9,20,3,'John McCarthy',2,'Light Heavyweight',TKO
+3,22,0,'Herb Dean',1,Heavyweight,TKO
+1,0,0,'Yves Lavigne',1,'Light Heavyweight',TKO
+0,0,2,'Josh Rosenthal',3,Welterweight,Decision

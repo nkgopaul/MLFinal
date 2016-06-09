@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
+/* Font Declaration */
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(../fonts/ProximaNova-Regular.otf);
+}
+
+/* Body style */
+body {
+	margin: 0;
+    padding: 0;
+}
+/* Navigation bar style */
+nav {
+	text-align: center;
+	background-color: white;
+	opacity: 0.7;
+	font-family: ProximaNova;
+}
+
+nav .pull-left {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+  	padding: 10px 10px;
+  	padding-bottom: 0;
+}
+
+nav .pull-right {
+	color: #FFF;
+	font-size: 15px;
+	font-weight: bold;
+  	padding: 14px 10px;
+  	padding-bottom: 0;
+}
+
+nav a {
+	color: black;
+}
+
+nav ul li {
+  	display: inline;
+  	color: white;
+  	padding-left: 15px;
+}
+
+nav a:hover {
+	color: #003399;
+	text-decoration: none;
+}
+
+nav a:active {
+	color: #FFF;
+	text-decoration: none;
+}
+
+/*Content style*/
+
+.mainpage {
+	min-height: 100%;
+	/* equal to footer height */
+	margin-top: -142px;
+}
+
+.mainpage:after {
+  content: "";
+  display: block;
+}
+
+body {
+	background-color: #FFF;
+}
+
+.title-page {
+	width: 100%;
+	height: 500px;
+	background-image: url(../images/ufc.jpg);
+}
+	
+	.overlay {
+		width: 100%;
+		height: 500px;
+		background-color: black;
+		opacity: 0.7;
+	}
+
+	.title-page h1 {
+		text-align: center;
+		font-family: ProximaNova, Helvetica, sans-serif;
+		font-size: 30px;
+		color: black;
+		padding-top: 300px;
+	  	color: #FFF;
+	}
+
+	.title-page h2 {
+		text-align: center;
+		font-family: ProximaNova, Helvetica, sans-serif;
+		font-size: 15px;
+		color: black;
+	  	color: #FFF;
+	}
+
+.content {
+	text-align:center;
+	position: relative;
+}
+
+	.content li {
+		text-align:left;
+	    vertical-align: top;
+	    display: -moz-inline-stack;
+	    display: inline-block;
+	    zoom: 1;
+	    *display: inline;
+	    _height: 250px;
+	    position: relative;
+	    font-family: ProximaNova;
+	    font-size: 16px;
+	    width: 100%;
+	}
+
+ 	.text1 {
+ 		padding-right: 40px;
+	    padding-left: 40px;
+	    padding-top: 20px;
+	    padding-bottom: 30px;
+    }
+
+	.nibblyImage1 {
+	    padding: 0px 0px 0px 0px;
+	}
+		.nibblyTutorialSlides {
+    		text-align: center;
+		}
+
+			.nibblyTutorialSlides li {
+				    display: inline-block;
+   					width: 20%;
+    				min-width: 250px;
+    				margin: 10px;
+			}
+				.nibblyTutorialSlides li img {
+					width: 100%;
+    				height: auto;
+				}
+
+    .text2 {
+    	position: absolute;
+    	padding-right: 40px;
+	    padding-left: 40px;
+	    padding-top: 20px;
+    }
+
+    .nibblyImage2 {
+    }
+
+
+/*Footer style*/
+
+footer {
+	text-align: center;
+	padding-top: 40px;
+}
+
+footer, .mainpage:after {
+}
+
+footer p {
+	color: #A3A3C2;
+}
+
+#email {
+	color: #A3A3C2;
+}
+
+#email:hover {
+	color: #333399;;
+}
+
+#linkedin {
+	color: #A3A3C2;
+}
+
+#linkedin:hover {
+	color: #333399;;
+}
+
+#github {
+	color: #A3A3C2;
+}
+
+#github:hover {
+	color: #333399;;
+}

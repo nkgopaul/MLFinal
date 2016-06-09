@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>EECS 349 Final Project - Navin Gopaul</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.ico" />
+    <meta name="viewport" content="initial-scale=1"> <!-- For mobile scaling -->
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> <!-- font awesome -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <meta charset=utf-8 />
+    <link rel="stylesheet" href="style/main.css">
+    <nav class="navbar-fixed-top">
+      <div class="container">
+        <ul class="pull-left">
+          <li class="home"><a>EECS 349 Final Project</a></li>
+        </ul>
+      </div>
+    </nav>
+  </head>
+
+  <body>
+    <div class="mainpage">
+      <div class="title-page">
+        <div class="overlay">
+          <h1>Predicting The Method of Victory in UFC Fights</h1>
+          <h2>Navin Gopaul</h2>
+          <h2>navingopaul2018@u.northwestern.edu</h2>
+          <h2>Northwestern University | EECS 349 - Machine Learning</h2>
+          <h2><a href="">Download Full Report</a></h2>
+        </div>
+      </div>
+      <ul class="content">
+        
+        <li class="text1">
+          
+          <p>
+            <h3>Motivation</h3>
+              UFC has been gaining more and more popularity. I attempted to determine the method of victory in a UFC fight (by knockout, submission, technical knockout, decision, or draw) based on attributes of each bout including age difference, weight difference, height difference, fighting class, the referee, and when the round ended. Being able to predict the outcome of a fight based on the attributes of each fighter could shift the odds against or in favor of different fighters prior to a fight and shift fan votes and expert predictions. This could have implications on the cost of betting for or against certain fighters or cost of betting on how a fight will end. Additionally, knowing what factors affect the outcome could influence how a fighter trains. For example, a certain weight class tends to end by submission, competitors in that class would know that they have to focus on their ground game.
+            </p>
+          <h3>Solution</h3>
+            <p>
+              To predict the method of victory, I used datasets from sherdog.com. The first dataset [HYPERLINK] contains data from every UFC fight dating back to November 1993. The second dataset [HYPERLINK] contained data from all the fighters that have ever competed in the UFC. Using a script [HYPERLINK] I wrote using a Python library called openpyxl, I used information from both of these sets to create a refined dataset [HYPERLINK] with the following attributes:
+              <br>
+              <p>1. Age difference</p>
+              <p>2. Weight difference</p>
+              <p>3. Height difference</p>
+              <p>4. Referee</p>
+              <p>5. Round the fight ended</p>
+              <p>6. Weight class</p>
+              <p>7. Method of victory</p>
+              To build the next part of my model, I used ZeroR as a baseline for testing and tried J48, BayesNet, and IBk in Weka using 10-fold cross-validation.
+            </p>
+        </li>
+          <img src="images/table.png">
+        <li class="text2">
+          <h3>Training and Testing</h3>
+            <p>
+              I separated the dataset into training and test using Weka's built in RemovePercentage filter. After removing percentage I saved that file as the training set. As seen in the table above, the J48 method ended up performing best on the dataset (62.6891%). The main source of error seemed to stem from the method incorrectly classifying instances where the outcome of fights were TKO/KO/submission, or instances where the fight didn't last for more than two rounds. (See full report for more details)
+            </p>
+          <h3>Results</h3>
+            <p>
+              Based on this visual representation of the decision tree, the most important feature seems to be the amount of rounds that the fight lasts for, which makes sense since fights are either up to 3 or 5 rounds long, so in the tree we can see that if the round lasts longer than 2 rounds, the fight is very likely to end up going to the judge's decision. The second most important feature seemed to be the referees of each bout. This is a misleading since different referees worked during different eras of UFC. For example, earlier UFC fights in the 90s were a lot less regulated so the referees during that time period had a tendency to ref fights that ended in KOs, TKOs, and submissions, whereas more fights today tend to end up going to a decision. The next most important feature was weight class – heavier weight class fights have a tendency to end in KOs and TKOs more than lighter weight class fights. While lighter weight classes tend to end in submission.
+            </p>
+        </li>
+        
+          
+        </li>
+      </ul>
+    </div> 
+    <footer>
+      <div class="container"><div class="footer-content">
+        <p>Created by Navin Gopaul.</p>
+        <ul class="social-links list-inline">
+          <li><a href="mailto:navinkgopaul@gmail.com"><i class="fa fa-envelope fa-2x" id="email"></i></a></li> 
+          <li><a href="https://www.linkedin.com/in/navingopaul"><i class="fa fa-linkedin fa-2x" id="linkedin"></i></a></li> 
+          <li><a href="https://www.github.com/nkgopaul"><i class="fa fa-github-alt fa-2x" id="github"></i></a></li> 
+        </ul>
+      </div></div>
+    </footer>
+    
+  </body>
+
+</html>

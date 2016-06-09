@@ -1,0 +1,339 @@
+round <= 2
+|   ref = Helio Vigio: TKO (0.0)
+|   ref = Joao Alberto Barreto: TKO (0.0)
+|   ref = John McCarthy
+|   |   round <= 1: KO (41.0/22.0)
+|   |   round > 1
+|   |   |   weightDifference <= 6: Submission (19.0/9.0)
+|   |   |   weightDifference > 6: TKO (8.0/5.0)
+|   ref = N/A: TKO (0.0)
+|   ref = Joe Hamilton: TKO (0.0)
+|   ref = Mason White: TKO (0.0)
+|   ref = Larry Landless: TKO (0.0)
+|   ref = Herb Dean
+|   |   weightClass = Middleweight: TKO (15.0/6.0)
+|   |   weightClass = Light Heavyweight
+|   |   |   weightDifference <= 10
+|   |   |   |   ageDifference <= 3: TKO (3.0/1.0)
+|   |   |   |   ageDifference > 3: Submission (5.0/2.0)
+|   |   |   weightDifference > 10: Submission (2.0)
+|   |   weightClass = Heavyweight
+|   |   |   round <= 1
+|   |   |   |   ageDifference <= 4
+|   |   |   |   |   heightDifference <= 0: KO (3.0/1.0)
+|   |   |   |   |   heightDifference > 0: TKO (6.0/1.0)
+|   |   |   |   ageDifference > 4: KO (2.0)
+|   |   |   round > 1: TKO (4.0)
+|   |   weightClass = Welterweight
+|   |   |   weightDifference <= 0
+|   |   |   |   ageDifference <= 4: Submission (6.0/3.0)
+|   |   |   |   ageDifference > 4
+|   |   |   |   |   ageDifference <= 5: TKO (3.0/1.0)
+|   |   |   |   |   ageDifference > 5: Submission (5.0/2.0)
+|   |   |   weightDifference > 0: TKO (5.0/2.0)
+|   |   weightClass = Super Heavyweight: TKO (0.0)
+|   |   weightClass = N/A: TKO (0.0)
+|   |   weightClass = Lightweight
+|   |   |   round <= 1: Submission (22.0/10.0)
+|   |   |   round > 1: TKO (5.0/1.0)
+|   |   weightClass = Bantamweight
+|   |   |   ageDifference <= 1: TKO (3.0)
+|   |   |   ageDifference > 1
+|   |   |   |   heightDifference <= 0: KO (2.0)
+|   |   |   |   heightDifference > 0
+|   |   |   |   |   ageDifference <= 5
+|   |   |   |   |   |   weightDifference <= 1: TKO (3.0/1.0)
+|   |   |   |   |   |   weightDifference > 1: Submission (4.0)
+|   |   |   |   |   ageDifference > 5
+|   |   |   |   |   |   ageDifference <= 9: TKO (4.0/1.0)
+|   |   |   |   |   |   ageDifference > 9: Submission (2.0/1.0)
+|   |   weightClass = Featherweight
+|   |   |   heightDifference <= 3: TKO (7.0/2.0)
+|   |   |   heightDifference > 3: Submission (6.0/4.0)
+|   |   weightClass = Flyweight: KO (5.0/2.0)
+|   |   weightClass = Strawweight: TKO (0.0)
+|   |   weightClass = Atomweight: TKO (0.0)
+|   ref = Cecil Peoples: TKO (0.0)
+|   ref = Steve Mazzagatti: TKO (11.0/6.0)
+|   ref = Jon Schorle: TKO (0.0)
+|   ref = Mario Yamasaki
+|   |   weightClass = Middleweight
+|   |   |   weightDifference <= 0: KO (3.04/0.04)
+|   |   |   weightDifference > 0
+|   |   |   |   weightDifference <= 17: TKO (5.07/1.0)
+|   |   |   |   weightDifference > 17: Submission (2.03/0.03)
+|   |   weightClass = Light Heavyweight
+|   |   |   ageDifference <= 1: TKO (2.03)
+|   |   |   ageDifference > 1: KO (3.04/1.04)
+|   |   weightClass = Heavyweight
+|   |   |   round <= 1
+|   |   |   |   heightDifference <= 2: KO (4.0/1.0)
+|   |   |   |   heightDifference > 2: TKO (4.0/1.0)
+|   |   |   round > 1: Submission (2.14/0.14)
+|   |   weightClass = Welterweight
+|   |   |   ageDifference <= 3
+|   |   |   |   weightDifference <= 8
+|   |   |   |   |   ageDifference <= 2: TKO (3.04/1.0)
+|   |   |   |   |   ageDifference > 2: KO (2.03/0.03)
+|   |   |   |   weightDifference > 8: Submission (2.03/0.03)
+|   |   |   ageDifference > 3
+|   |   |   |   ageDifference <= 6: TKO (3.04)
+|   |   |   |   ageDifference > 6
+|   |   |   |   |   weightDifference <= 7: Submission (2.03/0.03)
+|   |   |   |   |   weightDifference > 7: TKO (2.03)
+|   |   weightClass = Super Heavyweight: TKO (0.0)
+|   |   weightClass = N/A: TKO (0.0)
+|   |   weightClass = Lightweight: Submission (11.15/5.15)
+|   |   weightClass = Bantamweight
+|   |   |   round <= 1: TKO (5.0/2.0)
+|   |   |   round > 1: Submission (4.13/1.13)
+|   |   weightClass = Featherweight
+|   |   |   heightDifference <= 0
+|   |   |   |   ageDifference <= 2: TKO (2.03/1.0)
+|   |   |   |   ageDifference > 2: Submission (2.03/0.03)
+|   |   |   heightDifference > 0
+|   |   |   |   heightDifference <= 1: KO (2.03/0.03)
+|   |   |   |   heightDifference > 1: Submission (2.03/0.03)
+|   |   weightClass = Flyweight
+|   |   |   ageDifference <= 1: TKO (3.04)
+|   |   |   ageDifference > 1: Submission (2.03/0.03)
+|   |   weightClass = Strawweight: TKO (0.0)
+|   |   weightClass = Atomweight: TKO (0.0)
+|   ref = Yves Lavigne
+|   |   weightClass = Middleweight: TKO (2.0/1.0)
+|   |   weightClass = Light Heavyweight: TKO (2.0/1.0)
+|   |   weightClass = Heavyweight: TKO (3.0/1.0)
+|   |   weightClass = Welterweight: Submission (4.0/2.0)
+|   |   weightClass = Super Heavyweight: TKO (0.0)
+|   |   weightClass = N/A: TKO (0.0)
+|   |   weightClass = Lightweight
+|   |   |   ageDifference <= 2: Submission (2.0/1.0)
+|   |   |   ageDifference > 2: KO (5.0/1.0)
+|   |   weightClass = Bantamweight
+|   |   |   heightDifference <= 1
+|   |   |   |   ageDifference <= 4: KO (3.0/1.0)
+|   |   |   |   ageDifference > 4: TKO (2.0)
+|   |   |   heightDifference > 1: Submission (2.0)
+|   |   weightClass = Featherweight: TKO (5.0/1.0)
+|   |   weightClass = Flyweight: TKO (0.0)
+|   |   weightClass = Strawweight: TKO (0.0)
+|   |   weightClass = Atomweight: TKO (0.0)
+|   ref = Troy Waugh: KO (1.0)
+|   ref = Jorge Alonso: TKO (1.0)
+|   ref = Marco Lopez: TKO (0.0)
+|   ref = Mark Matheny: TKO (0.0)
+|   ref = Kerry Hatley
+|   |   heightDifference <= 1: TKO (3.0/1.0)
+|   |   heightDifference > 1: Submission (3.0/1.0)
+|   ref = Dan Miragliotta
+|   |   weightDifference <= 6: KO (32.0/15.0)
+|   |   weightDifference > 6
+|   |   |   weightDifference <= 19: TKO (14.0/5.0)
+|   |   |   weightDifference > 19: Submission (5.0/1.0)
+|   ref = Kevin Mulhall
+|   |   round <= 1: Submission (4.0/2.0)
+|   |   round > 1: TKO (2.0)
+|   ref = Josh Rosenthal
+|   |   weightDifference <= 0: KO (9.0/3.0)
+|   |   weightDifference > 0: Submission (10.0/3.0)
+|   ref = Jerry Krzys: TKO (0.0)
+|   ref = Adam Martinez: TKO (1.0)
+|   ref = Tim Mills: TKO (2.0)
+|   ref = Philippe Chartier
+|   |   ageDifference <= 5: TKO (3.0/1.0)
+|   |   ageDifference > 5: Submission (2.0/1.0)
+|   ref = Daryl Guthmiller: TKO (2.0/1.0)
+|   ref = Nick Gamst: Submission (2.0/1.0)
+|   ref = Josh Arney: TKO (0.0)
+|   ref = Mark Powell: TKO (0.0)
+|   ref = Jim Axtel: TKO (0.0)
+|   ref = Marc Goddard
+|   |   weightClass = Middleweight
+|   |   |   weightDifference <= 0: KO (5.0/2.0)
+|   |   |   weightDifference > 0: Submission (5.0/1.0)
+|   |   weightClass = Light Heavyweight: TKO (7.0/3.0)
+|   |   weightClass = Heavyweight: Submission (2.0/1.0)
+|   |   weightClass = Welterweight: Submission (6.0/2.0)
+|   |   weightClass = Super Heavyweight: Submission (0.0)
+|   |   weightClass = N/A: Submission (0.0)
+|   |   weightClass = Lightweight
+|   |   |   ageDifference <= 6: TKO (6.0/2.0)
+|   |   |   ageDifference > 6: Submission (2.0)
+|   |   weightClass = Bantamweight: Submission (1.0)
+|   |   weightClass = Featherweight: KO (3.0/1.0)
+|   |   weightClass = Flyweight: Submission (2.0)
+|   |   weightClass = Strawweight: Submission (1.0)
+|   |   weightClass = Atomweight: Submission (0.0)
+|   ref = Leon Roberts: TKO (38.0/21.0)
+|   ref = David Smith: TKO (0.0)
+|   ref = Todd Frederickson: TKO (0.0)
+|   ref = Marc Fennell: TKO (0.0)
+|   ref = Mike Reid: TKO (0.0)
+|   ref = Al Coley: TKO (0.0)
+|   ref = Donnie Jessup: TKO (0.0)
+|   ref = Jorge Ortiz: KO (1.0)
+|   ref = Rick Fike: TKO (0.0)
+|   ref = Kim Winslow
+|   |   weightDifference <= 5: TKO (7.0/1.0)
+|   |   weightDifference > 5: KO (4.0/1.0)
+|   ref = Keith Peterson
+|   |   round <= 1: KO (16.0/8.0)
+|   |   round > 1: Submission (6.0/3.0)
+|   ref = Dave Hagen: TKO (0.0)
+|   ref = Dave Hagan: TKO (0.0)
+|   ref = Shawn Gregory: TKO (0.0)
+|   ref = Kevin Nix: TKO (0.0)
+|   ref = Tom Jones: TKO (0.0)
+|   ref = Gary Ritter: TKO (0.0)
+|   ref = Don Turnage: Submission (3.0/2.0)
+|   ref = Jason Herzog
+|   |   weightClass = Middleweight: Submission (0.0)
+|   |   weightClass = Light Heavyweight: KO (1.0)
+|   |   weightClass = Heavyweight: Submission (0.0)
+|   |   weightClass = Welterweight: TKO (3.0/2.0)
+|   |   weightClass = Super Heavyweight: Submission (0.0)
+|   |   weightClass = N/A: Submission (0.0)
+|   |   weightClass = Lightweight
+|   |   |   ageDifference <= 3: TKO (5.0/1.0)
+|   |   |   ageDifference > 3: Submission (2.0)
+|   |   weightClass = Bantamweight: Submission (2.0)
+|   |   weightClass = Featherweight: Submission (0.0)
+|   |   weightClass = Flyweight: Submission (0.0)
+|   |   weightClass = Strawweight: Submission (0.0)
+|   |   weightClass = Atomweight: Submission (0.0)
+|   ref = Greg Franklin: TKO (0.0)
+|   ref = John Sharp: Submission (15.0/10.0)
+|   ref = Steve Perceval: TKO (21.0/8.0)
+|   ref = Tom Johnson: Submission (1.0)
+|   ref = Dale Frye: TKO (0.0)
+|   ref = Bill Clancy: TKO (0.0)
+|   ref = Phillipe Chatrier: TKO (0.0)
+|   ref = Marc-Andre Cote: TKO (3.0/1.0)
+|   ref = Kevin Dornan: Submission (1.0)
+|   ref = Tony Williamson: TKO (0.0)
+|   ref = Marcos Rosales: KO (1.0)
+|   ref = Rob Hinds
+|   |   weightDifference <= 7: Submission (3.0/2.0)
+|   |   weightDifference > 7: TKO (2.0)
+|   ref = Jeff Malott: TKO (0.0)
+|   ref = Marc Fennel: TKO (0.0)
+|   ref = Chris Tognoni: KO (14.0/9.0)
+|   ref = Gary Copeland: Submission (7.0/3.0)
+|   ref = Chris Kinman: TKO (0.0)
+|   ref = Kevin MacDonald
+|   |   weightClass = Middleweight: KO (0.0)
+|   |   weightClass = Light Heavyweight: TKO (4.0/1.0)
+|   |   weightClass = Heavyweight: KO (0.0)
+|   |   weightClass = Welterweight: KO (2.0)
+|   |   weightClass = Super Heavyweight: KO (0.0)
+|   |   weightClass = N/A: KO (0.0)
+|   |   weightClass = Lightweight: Submission (1.0)
+|   |   weightClass = Bantamweight: Submission (1.0)
+|   |   weightClass = Featherweight: Submission (3.0/2.0)
+|   |   weightClass = Flyweight: KO (0.0)
+|   |   weightClass = Strawweight: KO (0.0)
+|   |   weightClass = Atomweight: KO (0.0)
+|   ref = Anthony Hamlett: TKO (2.0/1.0)
+|   ref = Jerin Valel
+|   |   round <= 1
+|   |   |   ageDifference <= 3: KO (3.0/1.0)
+|   |   |   ageDifference > 3: TKO (3.0)
+|   |   round > 1: Submission (4.0/1.0)
+|   ref = Chip Snider: TKO (0.0)
+|   ref = Myron Gaudet: TKO (0.0)
+|   ref = Fernando Yamasaki
+|   |   weightDifference <= 0: TKO (5.0/1.0)
+|   |   weightDifference > 0: Submission (2.0/1.0)
+|   ref = Jacob Montalvo: TKO (4.0/1.0)
+|   ref = Dan Stell: TKO (0.0)
+|   ref = Jason McCoy: Submission (2.0/1.0)
+|   ref = Robert Madrigal
+|   |   ageDifference <= 3: Submission (2.0/1.0)
+|   |   ageDifference > 3: KO (2.0)
+|   ref = Jim Axtell: Submission (1.0)
+|   ref = Bo Nesslein: TKO (0.0)
+|   ref = Kristian Hacklou
+|   |   weightDifference <= 2: TKO (2.0/1.0)
+|   |   weightDifference > 2: Submission (2.0)
+|   ref = Marko Gyllenland: Submission (4.0)
+|   ref = Robert Sundel: Submission (2.0/1.0)
+|   ref = Blake Grice: TKO (0.0)
+|   ref = Will Fisher: TKO (0.0)
+|   ref = Todd McGovern: KO (3.0/1.0)
+|   ref = Rick McCoy: TKO (0.0)
+|   ref = Chris Adams: TKO (2.0/1.0)
+|   ref = Frank Gentile: Submission (2.0)
+|   ref = Gasper Oliver: TKO (4.0/1.0)
+|   ref = Luis Cobian: NC (1.0)
+|   ref = Steve Newport: KO (2.0)
+|   ref = Neil Hall
+|   |   ageDifference <= 2: TKO (4.0/1.0)
+|   |   ageDifference > 2
+|   |   |   round <= 1: KO (5.0/2.0)
+|   |   |   round > 1: Submission (2.0/1.0)
+|   ref = Thomas Fan: TKO (2.0/1.0)
+|   ref = Mike Beltran: TKO (2.0/1.0)
+|   ref = Adam Cheadle: TKO (0.0)
+|   ref = Randy Corley: Submission (1.0)
+|   ref = Al Wichgers: Submission (1.0)
+|   ref = Todd Anderson: KO (1.0)
+|   ref = Jay Stafin: KO (3.0)
+|   ref = Cameron Quinn: TKO (2.0/1.0)
+|   ref = George Allen: TKO (0.0)
+|   ref = Rob Madrigal: TKO (2.0)
+|   ref = Otto Torriero: TKO (1.0)
+|   ref = Osiris Maia: Submission (4.0/1.0)
+|   ref = Grant Waterman: KO (8.0/5.0)
+|   ref = Wernei Cardoso
+|   |   ageDifference <= 2: KO (2.4)
+|   |   ageDifference > 2: Submission (3.6/1.6)
+|   ref = Jorge Alsonso: Submission (1.0)
+|   ref = Mark Smith
+|   |   round <= 1: TKO (9.0/3.0)
+|   |   round > 1: Submission (2.0/1.0)
+|   ref = Wolf Menninger: Submission (4.0/1.0)
+|   ref = Raul Porrata: Submission (2.0/1.0)
+|   ref = Frank Collazo: TKO (2.0)
+|   ref = Peter Hickmott: TKO (1.0)
+|   ref = Vitor Ribeiro: TKO (2.0)
+|   ref = Liam Kerrigan: TKO (0.0)
+|   ref = Steven Davis: TKO (1.0)
+|   ref = Cyril Desjardins: Submission (1.0)
+|   ref = Brad Jardine: Submission (2.0/1.0)
+|   ref = Bobby Rehman: KO (3.0/1.0)
+|   ref = Eduardo Herdy
+|   |   round <= 1: Submission (3.0)
+|   |   round > 1: TKO (2.0/1.0)
+|   ref = Al Guinee: TKO (0.0)
+|   ref = Gary Forman: Submission (1.0)
+|   ref = Bryan Miner: TKO (0.0)
+|   ref = Kevin Sataki: TKO (4.0/1.0)
+|   ref = Don Thais: Submission (1.0)
+|   ref = Camila Albuquerque: Submission (1.0)
+|   ref = Mike King: TKO (1.0)
+|   ref = Lukasz Bosacki: Submission (1.0)
+|   ref = Marco Goddard: TKO (0.0)
+|   ref = Greg Kleynjans
+|   |   heightDifference <= 1
+|   |   |   round <= 1: KO (4.0/1.0)
+|   |   |   round > 1: Submission (4.0/2.0)
+|   |   heightDifference > 1: TKO (2.0)
+|   ref = Terry Hill: KO (1.0)
+|   ref = Gabe Barahona: TKO (1.0)
+|   ref = Jordan Bass: TKO (1.0)
+|   ref = Robbie Scheuermann: Submission (1.0)
+|   ref = James Warring: KO (2.0)
+|   ref = Josh Ward: Submission (1.0)
+|   ref = David Ferguson: TKO (0.0)
+|   ref = Neil Swailes: TKO (0.0)
+|   ref = Joe Solis: Submission (1.0)
+|   ref = Piotr Michalak: TKO (0.0)
+|   ref = John Hosegood: Submission (2.0/1.0)
+|   ref = Steve Rita: TKO (1.0)
+|   ref = Bill Bookwalter: TKO (0.0)
+|   ref = James Chappell: KO (1.0)
+round > 2: Decision (1013.0/177.0)
+
+Number of Leaves  : 	269
+
+Size of the tree : 	336
